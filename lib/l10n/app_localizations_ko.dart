@@ -1,0 +1,3430 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Korean (`ko`).
+class AppLocalizationsKo extends AppLocalizations {
+  AppLocalizationsKo([String locale = 'ko']) : super(locale);
+
+  @override
+  String get action_pause_task => '작업 일시 정지';
+
+  @override
+  String get action_stop_generation => '생성 중지';
+
+  @override
+  String get add_a_profile => '프로필을 추가해 나를 소개해 보세요';
+
+  @override
+  String get add_failed => '추가 실패';
+
+  @override
+  String get agent_addmore_addmore => '보충 정보';
+
+  @override
+  String get agent_addmore_addmore_required => '필수 항목';
+
+  @override
+  String get agent_addmore_again_text => '해당 작업이 곧 종료되며, 크레딧이 차감됩니다.';
+
+  @override
+  String get agent_addmore_again_title => '확인해 주세요';
+
+  @override
+  String get agent_addmore_aiauto => 'AI 자동 계획 및 결정';
+
+  @override
+  String get agent_addmore_auto => '자동 실행';
+
+  @override
+  String get agent_addmore_cancel => '취소';
+
+  @override
+  String get agent_addmore_canceled => '종료됨';
+
+  @override
+  String get agent_addmore_canceled_user => '사용자가 작업을 종료했습니다';
+
+  @override
+  String get agent_addmore_canceltask => '작업 종료';
+
+  @override
+  String get agent_addmore_confirm => '확인';
+
+  @override
+  String get agent_addmore_confirmed => '확인 완료';
+
+  @override
+  String get agent_addmore_continuetask => '계속 실행';
+
+  @override
+  String get agent_addmore_edit => '수정하겠습니다';
+
+  @override
+  String agent_addmore_seconds(Object seconds) {
+    return '카드 내용을 조작하지 않을 경우$seconds초 후 자동 실행됩니다';
+  }
+
+  @override
+  String get agent_addmore_upload => '파일 업로드';
+
+  @override
+  String get agent_addmore_uploaddate => '데이터 업로드';
+
+  @override
+  String get agent_addmore_uploaddiwen =>
+      '제공한 데이터를 바탕으로 분석 결과와 시각화 차트를 생성합니다. 업로드한 데이터는 지식 저장소에 저장됩니다.';
+
+  @override
+  String get agent_addmore_user => '인수됨: 편집 완료 후 확인해야 작업이 계속됩니다';
+
+  @override
+  String get agent_addmore_view => '전체 보기';
+
+  @override
+  String get agent_agent_fail_retry => '다시 시도';
+
+  @override
+  String get agent_agent_generating => '생성 중...';
+
+  @override
+  String get agent_agent_loading => '생각 중...';
+
+  @override
+  String get agent_agent_net_error_tip =>
+      '네트워크가 끊겼습니다. 작업은 백그라운드에서 계속되며, 연결 복원 시 결과가 반환됩니다';
+
+  @override
+  String get agent_agent_normal_cancel => '응답이 중지되었습니다';
+
+  @override
+  String get agent_agent_skip_or_auto_excute_hint =>
+      '건너뛰기 또는 자동 실행을 선택하면 AI가 스스로 판단하여 실행합니다';
+
+  @override
+  String get agent_agent_source_list_deep_research => '심층 연구';
+
+  @override
+  String get agent_agent_task_continue => '계속';
+
+  @override
+  String get agent_agent_task_fail => '오류가 발생했습니다. 작업이 일시 중지되었습니다';
+
+  @override
+  String get agent_agent_task_pause => '작업이 일시 중지되었습니다';
+
+  @override
+  String get agent_agent_ws_error_tip => '오류가 발생했습니다. 작업 실패. 사용된 포인트는 환불됩니다';
+
+  @override
+  String get agent_card_feedback_diwen => '더 많은 경험을 들려주세요.';
+
+  @override
+  String get agent_card_feedback_hold => '생성 중입니다. 잠시만 기다려주세요…';
+
+  @override
+  String get agent_card_feedback_submit => '제출';
+
+  @override
+  String get agent_card_feedback_title => '콘텐츠 피드백';
+
+  @override
+  String get agent_card_feedback_toast =>
+      '소중한 의견 감사합니다. 여러분의 피드백은 저희에게 매우 중요합니다.';
+
+  @override
+  String get agent_chat_add_more_multi => '다중 선택';
+
+  @override
+  String get agent_chat_copy => '복사';
+
+  @override
+  String get agent_chat_generating => '생성 중';
+
+  @override
+  String get agent_chat_project_name => '프로젝트 이름';
+
+  @override
+  String get agent_chat_switch_mode => '모드 전환';
+
+  @override
+  String get agent_chat_tool => '도구';
+
+  @override
+  String get agent_feedback_diwen => '더 많은 경험을 들려주세요.';
+
+  @override
+  String get agent_feedback_other => '기타';
+
+  @override
+  String get agent_feedback_submit => '제출';
+
+  @override
+  String get agent_outline_auto => '자동 실행';
+
+  @override
+  String get agent_outline_canceled => '종료됨';
+
+  @override
+  String get agent_outline_canceltask => '작업 종료';
+
+  @override
+  String get agent_outline_confirmed => '확인 완료';
+
+  @override
+  String get agent_outline_continuetask => '계속 실행';
+
+  @override
+  String get agent_outline_edit => '수정하겠습니다';
+
+  @override
+  String get agent_outline_outline => 'PPT 개요';
+
+  @override
+  String get agent_outline_progress => '진행 중';
+
+  @override
+  String get agent_outline_regenerate => '다시 생성';
+
+  @override
+  String get agent_outline_view => '모두 보기';
+
+  @override
+  String get agent_prompt_canceled_prompt =>
+      '오랫동안 조작이 없어 작업이 취소되었습니다. 소모된 크레딧은 반환되지 않습니다.';
+
+  @override
+  String get agent_prompt_multiwindow =>
+      '다른 기기에서 이 작업이 열려 있습니다. 진행 상황을 동기화하시겠습니까?';
+
+  @override
+  String get agent_prompt_multiwindow_sync => '동기화';
+
+  @override
+  String get agent_prompt_service_timeout => '서비스 시간 초과, 다시 연결해 주세요';
+
+  @override
+  String get agent_todo_again_text => '해당 작업이 곧 종료되며, 크레딧이 차감됩니다.';
+
+  @override
+  String get agent_todo_again_title => '확인해 주세요';
+
+  @override
+  String get agent_todo_auto => '자동 실행';
+
+  @override
+  String get agent_todo_cancel => '취소';
+
+  @override
+  String get agent_todo_canceled => '종료됨';
+
+  @override
+  String get agent_todo_canceled_user => '사용자가 작업을 종료했습니다';
+
+  @override
+  String get agent_todo_canceltask => '작업 종료';
+
+  @override
+  String get agent_todo_confirm => '확인';
+
+  @override
+  String get agent_todo_confirmed => '확인 완료';
+
+  @override
+  String get agent_todo_continuetask => '계속 실행';
+
+  @override
+  String get agent_todo_discarded => '폐기됨';
+
+  @override
+  String get agent_todo_edit => '수정하겠습니다';
+
+  @override
+  String get agent_todo_input => '보충 내용을 입력해 주세요';
+
+  @override
+  String get agent_todo_inputtitle => '추가 정보를 입력해 주세요';
+
+  @override
+  String get agent_todo_regenerate => '다시 생성';
+
+  @override
+  String agent_todo_seconds(Object seconds) {
+    return '카드 내용을 조작하지 않을 경우$seconds초 후 자동 실행됩니다';
+  }
+
+  @override
+  String get agent_todo_todolist => '할 일 목록';
+
+  @override
+  String get agent_todo_todolist_generating => '할 일 목록을 생성하는 중입니다...';
+
+  @override
+  String get agent_todo_user => '인수됨: 편집 완료 후 확인해야 작업이 계속됩니다';
+
+  @override
+  String get agent_todo_view => '전체 보기';
+
+  @override
+  String get agent_todolist_canceled => '작업 종료됨';
+
+  @override
+  String get agent_todolist_canceltask => '작업 종료';
+
+  @override
+  String get agent_todolist_completed => '완료';
+
+  @override
+  String get agent_todolist_continuetask => '작업 계속';
+
+  @override
+  String get agent_todolist_insufficient => '크레딧 부족';
+
+  @override
+  String get agent_todolist_no => '할 일이 없습니다';
+
+  @override
+  String get agent_todolist_paused => '작업 일시중지';
+
+  @override
+  String get agent_todolist_pending => '대기 중';
+
+  @override
+  String get agent_todolist_progress => '작업 중';
+
+  @override
+  String get agent_todolist_task_progress => '작업 진행 상황';
+
+  @override
+  String get agent_todolist_todolist => '할 일 목록';
+
+  @override
+  String get ai_warning_tip => 'Skywork에서 생성된 콘텐츠에 오류가 있을 수 있으니 꼭 확인해 주세요.';
+
+  @override
+  String get album => '앨범';
+
+  @override
+  String get algorithm_filing_publicity => '알고리즘 등록 정보 공개';
+
+  @override
+  String get app_app_name => 'Skywork';
+
+  @override
+  String get app_massage_download_success =>
+      '클라우드에서 다운로드한 파일을 가져오는 중입니다. 잠시만 기다려 주세요.';
+
+  @override
+  String get app_quit_notice => '한 번 더 누르면 종료됩니다';
+
+  @override
+  String get artifact_app__download_end_toast => '다운로드 성공. 메시지 센터에서 확인';
+
+  @override
+  String get artifact_app__download_start_toast =>
+      '다운로드를 시작했습니다: 예상 소요 시간은 1~10분입니다. 프로젝트 페이지를 떠나셔도 괜찮습니다. 다운로드가 완료되면 알림이 전송되오니 꼭 확인해주세요.';
+
+  @override
+  String get artifact_app_download_menu_code_explain => '웹 코드 조각만 저장';
+
+  @override
+  String get artifact_app_download_menu_doc_ppt_html_explain => '생성된 코드만 저장';
+
+  @override
+  String get artifact_app_download_menu_docx_explain =>
+      'Word 2007 이상 버전에서 사용 가능';
+
+  @override
+  String get artifact_app_download_menu_download_again_button => '다시 다운로드';
+
+  @override
+  String get artifact_app_download_menu_download_again_tip => '다운로드 완료';
+
+  @override
+  String get artifact_app_download_menu_download_button => '다운로드';
+
+  @override
+  String get artifact_app_download_menu_free_tip => '무료 다운로드';
+
+  @override
+  String get artifact_app_download_menu_google_explain =>
+      '다운로드 후 Google Slides로 내보내기';
+
+  @override
+  String get artifact_app_download_menu_limit_free_tip => '기간 한정 무료';
+
+  @override
+  String get artifact_app_download_menu_markdown_explain =>
+      '공유와 편집이 쉬운 간단한 마크업 문법';
+
+  @override
+  String get artifact_app_download_menu_mermaid_explain => '순서도 등을 위한 다이어그램 문법';
+
+  @override
+  String get artifact_app_download_menu_mp3_explain =>
+      '오디오 내보내기, 미디어 플레이어에서 재생 가능';
+
+  @override
+  String get artifact_app_download_menu_name => '다운로드 형식 선택';
+
+  @override
+  String get artifact_app_download_menu_pdf_explain => '모든 플랫폼에서 읽기 쉬움';
+
+  @override
+  String get artifact_app_download_menu_pm4_explain => '오디오 및 비디오 포함 비디오 파일 형식';
+
+  @override
+  String get artifact_app_download_menu_png_explain => '다양한 환경에 적합한 무손실 이미지 포맷';
+
+  @override
+  String get artifact_app_download_menu_podcast_markdown_explain =>
+      '팟캐스트 원고만 저장';
+
+  @override
+  String get artifact_app_download_menu_podcast_mp3_explain =>
+      '오디오를 내보내고 플레이어로 들을 수 있어요';
+
+  @override
+  String get artifact_app_download_menu_pptx_explain =>
+      'PowerPoint 2007 이상 버전에서 사용 가능';
+
+  @override
+  String get artifact_app_download_menu_present_tip => '보너스';
+
+  @override
+  String get artifact_app_download_menu_rule => '다운로드 규칙 확인';
+
+  @override
+  String get artifact_app_download_menu_rule_explain_text =>
+      '[_LEFT_BRACE_\"rule_desc\":\"다운로드 규칙\",\"floating_desc\":[\"동일한 버전은 한 번만 포인트가 차감됩니다\",\"다운로드에 실패하면 크레딧과 무료 이용 횟수가 차감되지 않습니다。\",\"포인트 계산에 실패해도 다운로드는 가능합니다. 다운로드가 성공하면 해당 포인트가 차감됩니다. 페이지를 새로 고쳐 다시 계산을 시도할 수 있습니다.\"]_RIGHT_BRACE_]';
+
+  @override
+  String get artifact_app_download_menu_safeguard_explain =>
+      '다운로드 지원, 호환 도구로 보기 가능';
+
+  @override
+  String get artifact_app_download_menu_svg_explain => '무손실 확대 가능한 벡터 그래픽 형식';
+
+  @override
+  String get artifact_app_download_menu_txt_explain => '텍스트만 포함된 일반 텍스트 형식';
+
+  @override
+  String get artifact_app_download_menu_web_html_explain => '웹 페이지 코드 형식으로 저장';
+
+  @override
+  String get artifact_app_download_menu_xlsx_explain => 'Excel 2007 이상 버전 지원';
+
+  @override
+  String get artifact_browsing_add_to_knowledge_base => '지식베이스에 추가';
+
+  @override
+  String get artifact_browsing_code_display_failed => '코드를 표시할 수 없습니다.';
+
+  @override
+  String artifact_browsing_code_tab(Object count) {
+    return '$count페이지';
+  }
+
+  @override
+  String get artifact_browsing_copy => '복사';
+
+  @override
+  String get artifact_browsing_copy_fail_tost => '해당 결과를 복사할 수 없습니다.';
+
+  @override
+  String get artifact_browsing_copy_success_tost => '복사 성공';
+
+  @override
+  String get artifact_browsing_download => '다운로드';
+
+  @override
+  String get artifact_browsing_download_ask_tost => '다운로드 중입니다. 중복 클릭하지 마세요.';
+
+  @override
+  String get artifact_browsing_download_fail_tost => '다운로드 실패, 다시 시도해주세요.';
+
+  @override
+  String get artifact_browsing_download_start_tost => '다운로드 시작';
+
+  @override
+  String get artifact_browsing_download_success_tost => '다운로드 성공';
+
+  @override
+  String get artifact_browsing_download_wait_tost =>
+      '현재 다운로드 요청이 많습니다. 잠시 후 다시 시도해주세요.';
+
+  @override
+  String get artifact_browsing_generation_default_title => 'Skywork 생성 결과';
+
+  @override
+  String get artifact_browsing_generation_failed => '생성 실패';
+
+  @override
+  String get artifact_browsing_knowledge_already_tost =>
+      '결과가 이미 지식베이스에 있습니다. 확인해주세요.';
+
+  @override
+  String artifact_browsing_knowledge_default_title(Object count) {
+    return 'Skywork 기본 콘텐츠 제목 $count';
+  }
+
+  @override
+  String get artifact_browsing_knowledge_fail_tost =>
+      '지식베이스에 추가 실패, 다시 시도해주세요.';
+
+  @override
+  String get artifact_browsing_knowledge_success_tost => '지식베이스에 성공적으로 추가됨';
+
+  @override
+  String get artifact_browsing_loading => '모델이 생성 중입니다. 잠시만 기다려주세요.';
+
+  @override
+  String get artifact_browsing_loading_failed => '로딩 실패, 페이지를 새로고침하세요.';
+
+  @override
+  String get artifact_browsing_network_error => '연결이 끊어졌습니다. 네트워크를 확인하세요.';
+
+  @override
+  String get artifact_browsing_play => '재생';
+
+  @override
+  String get artifact_browsing_podcast_script => '스크립트';
+
+  @override
+  String get artifact_browsing_previewed_failed =>
+      '미리보기를 지원하지 않습니다. 다운로드하여 확인하세요.';
+
+  @override
+  String get artifact_browsing_share => '현재 파일 공유';
+
+  @override
+  String get artifact_browsing_share_fail_tost => '공유 실패, 다시 시도해주세요.';
+
+  @override
+  String get artifact_browsing_share_success_tost => '공유 성공';
+
+  @override
+  String artifact_browsing_source_default_title(Object count) {
+    return 'Skywork 기본 콘텐츠 제목 $count';
+  }
+
+  @override
+  String get artifact_browsing_sources_button => '출처 추적';
+
+  @override
+  String get artifact_browsing_spurce_list => '정보 출처';
+
+  @override
+  String get artifact_browsing_spurce_list_all => '전체';
+
+  @override
+  String get artifact_browsing_spurce_list_all_content => '마지막입니다.';
+
+  @override
+  String get artifact_browsing_spurce_list_knowledge => '지식베이스';
+
+  @override
+  String get artifact_browsing_spurce_list_loading_failed =>
+      '출처 로딩 실패, 잠시 후 다시 시도하거나 수정될 때까지 기다려주세요.';
+
+  @override
+  String get artifact_browsing_spurce_list_none => '결과 없음';
+
+  @override
+  String get artifact_browsing_spurce_list_web => '전 웹 추천';
+
+  @override
+  String get artifact_browsing_tab_code => '코드';
+
+  @override
+  String get artifact_browsing_tab_preview => '미리보기';
+
+  @override
+  String get artifact_browsing_to_pc =>
+      'PC에서 <rich-text config=\"highlight\">skywork.ai</rich-text>에 접속하여 더 많은 기능을 사용해보세요. <rich-text config=\"highlight\">링크 복사</rich-text>';
+
+  @override
+  String artifact_browsing_version_button(Object cur, Object total_count) {
+    return '버전 $cur/$total_count';
+  }
+
+  @override
+  String get artifact_browsing_view_all_sources_button => '출처 보기';
+
+  @override
+  String get artifact_card_failed => '생성 실패';
+
+  @override
+  String get artifact_card_insufficient_credits => '크레딧 부족';
+
+  @override
+  String artifact_card_page(Object count) {
+    return '$count페이지';
+  }
+
+  @override
+  String get artifact_card_progress => '진행 중';
+
+  @override
+  String get artifact_card_stopped => '생성이 중단되었습니다.';
+
+  @override
+  String artifact_card_words(Object count) {
+    return '$count자';
+  }
+
+  @override
+  String artifact_chat_deep_research_source_list(
+      Object source_count, Object web_count) {
+    return '$web_count페이지 탐색, $source_count개 출처';
+  }
+
+  @override
+  String get artifact_chat_source_list => '출처 추적';
+
+  @override
+  String get artifact_chat_sources_list => '출처 추적';
+
+  @override
+  String get artifact_download_network_erro_download_keep_toast =>
+      '백그라운드에서 다운로드가 진행 중입니다. 완료되면 알림을 보내드리니 확인 부탁드립니다.';
+
+  @override
+  String get camera => '카메라';
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get cancel_account => '계정 탈퇴';
+
+  @override
+  String get cancellation_feedback => '귀하의 피드백은 Skywork의 개선에 도움이 됩니다';
+
+  @override
+  String get cancellation_feedback_better_model => '더 나은 모델을 찾았어요';
+
+  @override
+  String get cancellation_feedback_cancel => '취소';
+
+  @override
+  String get cancellation_feedback_effect => '기대만큼 효과가 없었어요';
+
+  @override
+  String get cancellation_feedback_submit => '제출';
+
+  @override
+  String get cancellation_feedback_useit => '더 이상 사용하고 싶지 않아요';
+
+  @override
+  String get case_data_not_exist => '프로젝트 데이터가 존재하지 않습니다';
+
+  @override
+  String get chat_agent_name => '전문가 에이전트';
+
+  @override
+  String chat_data_card_consumes(Object count) {
+    return '$count회 소모';
+  }
+
+  @override
+  String chat_data_card_countdown(Object seconds) {
+    return '${seconds}s이내에 확인하지 않으면 전문 데이터를 사용하지 않은 상태로 작업이 계속 진행됩니다.';
+  }
+
+  @override
+  String get chat_data_card_displaying => '다음에 다시 표시하지 않기';
+
+  @override
+  String get chat_data_card_feedback_input =>
+      '원하는 데이터가 있다면 알려주세요. 전문 데이터 확장에 도움이 됩니다.';
+
+  @override
+  String get chat_data_card_notused => '미사용';
+
+  @override
+  String get chat_data_card_now => '지금 업그레이드';
+
+  @override
+  String get chat_data_card_pro => 'Pro 회원 무제한 사용 가능';
+
+  @override
+  String get chat_data_card_prompt =>
+      'Skywork는 사용자가 선택한 데이터를 우선 사용하며, 실행 중 해당 데이터가 실제로 사용된 후에만 크레딧이 차감됩니다.';
+
+  @override
+  String chat_data_card_remaining(Object count) {
+    return '$count회 남음';
+  }
+
+  @override
+  String get chat_data_card_skip => '사용 안 함';
+
+  @override
+  String get chat_data_card_skip_button => '사용 안 함';
+
+  @override
+  String get chat_data_card_takeover => '인수됨: 편집 완료 후 확인해야 작업이 계속됩니다';
+
+  @override
+  String get chat_data_card_title => '전문 데이터';
+
+  @override
+  String get chat_data_card_upgrade => '멤버십으로 업그레이드하여 전문 데이터 이용 혜택을 누리세요';
+
+  @override
+  String get chat_data_card_use => '사용';
+
+  @override
+  String get chat_data_card_use_button => '사용';
+
+  @override
+  String get chat_data_card_used => '사용됨';
+
+  @override
+  String chat_data_card_vip(Object count_credit, Object count_time) {
+    return '이 데이터는 VIP 전용입니다. Pro 회원은 무제한으로 사용할 수 있습니다. Pro 회원이 아니거나 무료 사용자는 $count_time회 사용 또는 $count_credit 크레딧을 선택할 수 있습니다.';
+  }
+
+  @override
+  String get chat_general_dislike => '별로예요';
+
+  @override
+  String get chat_general_like => '좋아요';
+
+  @override
+  String get chat_general_regenerate => '다시 답변하기';
+
+  @override
+  String get chat_network_offline_tip =>
+      '네트워크가 끊겼습니다. 작업은 백그라운드에서 계속되며, 연결 복원 후 결과가 반환됩니다 다시 <rich-text config=\"highlight\">시도</rich-text>';
+
+  @override
+  String get chat_overload_query_toast =>
+      '현재 이용자가 많아 서버가 혼잡합니다. 잠시 후 다시 시도해주세요';
+
+  @override
+  String get chat_overload_tip => '현재 이용자가 많아 서버가 혼잡합니다. 잠시 후 다시 시도해주세요';
+
+  @override
+  String get chat_project_agent => '에이전트';
+
+  @override
+  String get chat_task_analyzing_text =>
+      '분석 중에는 작업을 일시 중지할 수 없습니다. 잠시 후 다시 시도해 주세요';
+
+  @override
+  String get chat_task_error_image_tip => '생성 실패';
+
+  @override
+  String get chat_task_error_retry_tip =>
+      '오류가 발생하여 작업이 일시 중지되었습니다 <rich-text config=\"highlight\">시도</rich-text>';
+
+  @override
+  String get chat_task_error_tip => '오류가 발생하여 작업이 실패했습니다. 사용된 크레디트는 계정으로 반환됩니다';
+
+  @override
+  String get chat_task_generating_text => '생성 중에는 작업을 일시 중지할 수 없습니다';
+
+  @override
+  String get chat_task_no_support_toast => '작업 오류로 인해 해당 작업은 지원되지 않습니다';
+
+  @override
+  String get chat_task_timeout_cancel_tip =>
+      '오랫동안 활동이 없어 작업이 취소되었습니다. 사용된 크레디트는 반환되지 않습니다';
+
+  @override
+  String get chat_wait_response => '답변 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String chatbox_estimate_start(Object count) {
+    return '$count회';
+  }
+
+  @override
+  String get chatbox_limit_text => '크레디트가 부족합니다. 빠른 시일 내에 충전해주세요';
+
+  @override
+  String get chatbox_no_query_estimate_tooltip => '내용을 입력하시면 크레딧 사용량이 예측됩니다.';
+
+  @override
+  String get chatbox_no_query_new_reminder => '이번 작업에 소모될 크레딧을 예측해보세요';
+
+  @override
+  String get check_the_box => '약관에 동의해 주세요';
+
+  @override
+  String get confirm => '확인';
+
+  @override
+  String get create_fail => '생성에 실패했습니다';
+
+  @override
+  String get create_new => '새로 만들기';
+
+  @override
+  String get create_successful => '생성 성공';
+
+  @override
+  String get credit_detail_faq => '자주 묻는 질문';
+
+  @override
+  String get credit_detail_faq_illustrate =>
+      '자세한 내용은 <rich-text config=\"highlight\">크레딧 규정을</rich-text> 참고하세요';
+
+  @override
+  String get credit_detail_page_title => '크레딧 내역';
+
+  @override
+  String get credit_detail_view_all => '전체 보기';
+
+  @override
+  String get credit_recharge_button_succeed => '확인했습니다';
+
+  @override
+  String get credit_recharge_button_try_again => '다시 시도해주세요';
+
+  @override
+  String get credit_recharge_current_credit => '현재 크레딧';
+
+  @override
+  String get credit_recharge_page_title => '충전 센터';
+
+  @override
+  String get credit_recharge_recharge_button => '지금 구매하기';
+
+  @override
+  String get credit_recharge_state_cancel => '충전 취소';
+
+  @override
+  String get credit_recharge_state_exception => '결제 오류';
+
+  @override
+  String get credit_recharge_state_failed => '충전 실패';
+
+  @override
+  String get credit_recharge_state_succeed => '충전 성공';
+
+  @override
+  String get credit_recharge_title => '크레딧 구매';
+
+  @override
+  String get credit_recharge_usage_rules =>
+      '사용 규칙:\\n\n\n유효기간은 90일이며, 구매 즉시 지급됩니다;\\n\n\n여러 번 구매 시 크레딧이 누적됩니다.';
+
+  @override
+  String credits_details_expire_day(Object count, Object time) {
+    return '$count크레딧 $time에 만료 예정';
+  }
+
+  @override
+  String credits_details_expire_month(Object count, Object time) {
+    return '$count크레딧 $time에 만료 예정';
+  }
+
+  @override
+  String credits_details_expire_tomorrow(Object count, Object time) {
+    return '$count크레딧 내일 $time에 만료 예정';
+  }
+
+  @override
+  String credits_details_expire_years(Object count, Object time) {
+    return '$count크레딧 $time에 만료 예정';
+  }
+
+  @override
+  String get credits_details_recharge_button => '지금 충전하기';
+
+  @override
+  String get credits_details_tab_all => '전체';
+
+  @override
+  String get credits_details_tab_earned => '수입';
+
+  @override
+  String get credits_details_tab_spent => '지출';
+
+  @override
+  String get credits_page_title => '내 크레딧';
+
+  @override
+  String get current_version => '현재 버전';
+
+  @override
+  String get delete_account_box => '계정이 영구 삭제되며 복구할 수 없음을 이해합니다';
+
+  @override
+  String get delete_account_cancel => '취소';
+
+  @override
+  String get delete_account_confirm => '탈퇴 확인';
+
+  @override
+  String get delete_account_confirm_again => '계정 삭제';
+
+  @override
+  String get delete_account_note =>
+      '1. 계정 삭제는 영구적이며 되돌릴 수 없습니다.\n2.개인 지식 베이스 및 계정과 관련된 개인 데이터, 파일, 권한 등도 함께 삭제됩니다. 중요 자료는 백업 후 계정 삭제를 진행해 주세요.';
+
+  @override
+  String get delete_account_note_again =>
+      '계정의 데이터, 파일, 자산 및 권한이 삭제됩니다. 이 작업은 복구할 수 없습니다.';
+
+  @override
+  String get delete_account_reminder => '중요 알림';
+
+  @override
+  String get delete_all => '전체 삭제';
+
+  @override
+  String get delete_failed => '삭제 실패';
+
+  @override
+  String get delete_successful => '삭제 성공';
+
+  @override
+  String get desc_tips => '설명';
+
+  @override
+  String get desc_tips_words => '여기에 의견을 공유하세요.';
+
+  @override
+  String get doc_agent_onboarding_a => '문서 작성을 완료했습니다.';
+
+  @override
+  String get doc_agent_onboarding_main_title => '문서 전문가 AI 에이전트';
+
+  @override
+  String get doc_agent_onboarding_subtitle =>
+      '방대한 정보를 검색하고 심도 있는 콘텐츠를 작성하며 다양한 전문 문서에 능숙합니다';
+
+  @override
+  String get done => '완료';
+
+  @override
+  String get download_completed => '다운로드 완료';
+
+  @override
+  String get download_download_again => '다운로드 중입니다. 반복 클릭하지 마세요';
+
+  @override
+  String get download_download_cost_too_much => '포인트가 부족합니다. 충전 후 계속 진행해주세요';
+
+  @override
+  String get download_download_failed => '다운로드 실패, 다시 시도해주세요';
+
+  @override
+  String get download_download_start => '다운로드 시작';
+
+  @override
+  String get download_download_success => '다운로드 성공';
+
+  @override
+  String get download_download_tip_text => '같은 버전은 한 번만 포인트가 차감됩니다';
+
+  @override
+  String get download_download_too_much => '현재 다운로드가 많습니다. 나중에 다시 시도해주세요';
+
+  @override
+  String get download_failed => '다운로드 실패';
+
+  @override
+  String get download_list => '다운로드 목록';
+
+  @override
+  String get download_list_empty => '다운로드 내역 없음';
+
+  @override
+  String get edit_nickname => '닉네임 편집';
+
+  @override
+  String get email_cache_exit => '인증번호 전송이 너무 잦습니다';
+
+  @override
+  String get email_fmt_error => '올바른 이메일을 입력해 주세요';
+
+  @override
+  String get enter_valid_content => '유효한 내용을 입력해 주세요';
+
+  @override
+  String get enter_you_nickname => '닉네임을 입력하세요';
+
+  @override
+  String get estimate_cancel_credit_main_button => '예측 계속';
+
+  @override
+  String get estimate_cancel_credit_main_text =>
+      '예상 취소 시에도 포인트가 차감됩니다. 취소하시겠습니까?';
+
+  @override
+  String get estimate_cancel_credit_sub_button => '예측 취소';
+
+  @override
+  String get estimate_cancel_credit_title => '예측 취소';
+
+  @override
+  String get estimate_cancel_main_button => '예측 계속';
+
+  @override
+  String get estimate_cancel_main_text => '예측을 취소해도 1회 차감됩니다. 그래도 취소하시겠습니까?';
+
+  @override
+  String get estimate_cancel_sub_button => '예측 취소';
+
+  @override
+  String get estimate_cancel_title => '예측 취소';
+
+  @override
+  String get estimate_fail_button => '확인했습니다';
+
+  @override
+  String get estimate_fail_credit_button => '확인했습니다';
+
+  @override
+  String get estimate_fail_credit_main_text =>
+      '이번에는 포인트가 차감되지 않습니다. 잠시 후 다시 시도해주세요.';
+
+  @override
+  String get estimate_fail_credit_title => '예측 실패';
+
+  @override
+  String get estimate_fail_main_text => '이번 시도는 차감되지 않습니다. 잠시 후 다시 시도해 주세요';
+
+  @override
+  String estimate_fail_sub_title(Object count) {
+    return '남은 횟수: $count회';
+  }
+
+  @override
+  String estimate_fail_sub_title_tip(Object count) {
+    return '무료 사용이 모두 소진되었습니다. 이후 이용 시 $count포인트가 차감됩니다.';
+  }
+
+  @override
+  String get estimate_fail_title => '예측 실패';
+
+  @override
+  String get estimate_loading_button => '예측 취소';
+
+  @override
+  String get estimate_loading_credit_button => '예측 취소';
+
+  @override
+  String get estimate_loading_credit_main_text => '크레딧 사용량 계산 중…';
+
+  @override
+  String get estimate_loading_credit_sub_text =>
+      '크레딧 사용량은 작업 처리 과정 및 결과에 따라 달라지며, 실제 사용량은 작업 완료 후 정산됩니다. <rich-text config=\"bold\">예측을 취소해도 1회 차감됩니다</rich-text>. 예측 실패 시 사용량은 차감되지 않습니다.';
+
+  @override
+  String get estimate_loading_credit_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_loading_credit_title => '예측 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String get estimate_loading_main_text => '크레딧 사용량 계산 중…';
+
+  @override
+  String get estimate_loading_sub_text =>
+      '크레딧 사용량은 작업 처리 과정 및 결과에 따라 달라지며, 실제 사용량은 작업 완료 후 정산됩니다. <rich-text config=\"bold\">예측을 취소해도 1회 차감됩니다</rich-text>. 예측 실패 시 사용량은 차감되지 않습니다.';
+
+  @override
+  String estimate_loading_sub_title(Object count) {
+    return '남은 횟수: $count회';
+  }
+
+  @override
+  String estimate_loading_sub_title_tip(Object count) {
+    return '무료 사용이 모두 소진되었습니다. 이후 이용 시 $count포인트가 차감됩니다.';
+  }
+
+  @override
+  String get estimate_loading_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_loading_title => '예측 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String estimate_success_credit_main_text(Object count) {
+    return '이번 작업의 예상 크레딧 소모: $count';
+  }
+
+  @override
+  String get estimate_success_credit_start_button => '전송';
+
+  @override
+  String get estimate_success_credit_start_text =>
+      '예상 완료되었습니다. ‘전송’을 클릭하면 작업이 즉시 시작됩니다.';
+
+  @override
+  String get estimate_success_credit_sub_text =>
+      '실제 사용량은 작업 진행 및 출력 결과에 따라 달라집니다. 최종 정산 기준으로 적용됩니다.';
+
+  @override
+  String get estimate_success_credit_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_success_credit_title => '예측 성공';
+
+  @override
+  String estimate_success_main_text(Object count) {
+    return '이번 작업의 예상 크레딧 소모: $count';
+  }
+
+  @override
+  String get estimate_success_start_button => '전송';
+
+  @override
+  String get estimate_success_start_text =>
+      '예상 완료되었습니다. ‘전송’을 클릭하면 작업이 즉시 시작됩니다.';
+
+  @override
+  String estimate_success_sub_hover(Object count) {
+    return '무료 사용이 모두 소진되었습니다. 이후 이용 시 $count포인트가 차감됩니다.';
+  }
+
+  @override
+  String get estimate_success_sub_text =>
+      '실제 사용량은 작업 진행 및 출력 결과에 따라 달라집니다. 최종 정산 기준으로 적용됩니다.';
+
+  @override
+  String estimate_success_sub_title(Object count) {
+    return '남은 횟수: $count회';
+  }
+
+  @override
+  String get estimate_success_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_success_title => '예측 성공';
+
+  @override
+  String estimate_tooltip_credit_button(Object count) {
+    return '예측 시작$count';
+  }
+
+  @override
+  String get estimate_tooltip_main_text => '입력한 작업을 기반으로 이번 크레딧 사용량을 예측합니다';
+
+  @override
+  String get estimate_tooltip_no_ask_text => '다시 표시하지 않음';
+
+  @override
+  String estimate_tooltip_sub_credit(Object count) {
+    return '$count/회';
+  }
+
+  @override
+  String get estimate_tooltip_sub_credit_hovertip => '이번 달 무료 이용 횟수를 모두 사용했습니다';
+
+  @override
+  String get estimate_tooltip_sub_text =>
+      '실제 사용량은 작업 진행 및 출력 결과에 따라 달라집니다. 최종 정산 기준으로 적용됩니다.';
+
+  @override
+  String get estimate_tooltip_title => '크레딧 예측';
+
+  @override
+  String get estimate_trial_end_button => '멤버십 업그레이드';
+
+  @override
+  String get estimate_trial_end_main_text =>
+      '무료 체험 횟수가 모두 소진되었습니다. 계속 사용하려면 멤버십을 업그레이드하세요.';
+
+  @override
+  String get estimate_trial_end_title => '크레딧 예측';
+
+  @override
+  String get estimate_trial_fail_button => '확인했습니다';
+
+  @override
+  String get estimate_trial_fail_main_text =>
+      '이번 시도는 차감되지 않습니다. 잠시 후 다시 시도해 주세요';
+
+  @override
+  String get estimate_trial_fail_title => '예측 실패';
+
+  @override
+  String get estimate_trial_loading_button => '예측 취소';
+
+  @override
+  String get estimate_trial_loading_main_text => '크레딧 사용량 계산 중…';
+
+  @override
+  String get estimate_trial_loading_sub_text =>
+      '크레딧 사용량은 작업 처리 과정 및 결과에 따라 달라지며, 실제 사용량은 작업 완료 후 정산됩니다. <rich-text config=\"bold\">예측을 취소해도 1회 차감됩니다</rich-text>. 예측 실패 시 사용량은 차감되지 않습니다.';
+
+  @override
+  String get estimate_trial_loading_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_trial_loading_title => '예측 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String get estimate_trial_success_button => '전송';
+
+  @override
+  String estimate_trial_success_main_text(Object count) {
+    return '이번 작업의 예상 크레딧 소모: $count';
+  }
+
+  @override
+  String get estimate_trial_success_start_text =>
+      '예상 완료되었습니다. ‘전송’을 클릭하면 작업이 즉시 시작됩니다.';
+
+  @override
+  String get estimate_trial_success_sub_text_1 =>
+      '실제 사용량은 작업 진행 및 출력 결과에 따라 달라집니다. 최종 정산 기준으로 적용됩니다.';
+
+  @override
+  String get estimate_trial_success_text_link =>
+      '<rich-text config=\"highlight\">크레딧 규칙</rich-text> 확인';
+
+  @override
+  String get estimate_trial_success_title => '예측 성공';
+
+  @override
+  String get estimate_trial_tooltip_main_text =>
+      '입력한 작업을 기반으로 이번 크레딧 사용량을 예측합니다';
+
+  @override
+  String get estimate_trial_tooltip_start_button => '예측 시작';
+
+  @override
+  String get estimate_trial_tooltip_sub_text =>
+      '이 기능은 멤버십 전용 혜택입니다. 계정당 1회 무료 체험이 제공됩니다. 멤버십을 업그레이드하면 계속 사용할 수 있습니다.';
+
+  @override
+  String estimate_trial_tooltip_sub_title(Object count) {
+    return '무료 체험$count회';
+  }
+
+  @override
+  String get estimate_trial_tooltip_title => '크레딧 예측';
+
+  @override
+  String get excel_excel_excel => '스프레드시트';
+
+  @override
+  String feedback_contact_email(Object email) {
+    return '이메일로 문의하기:  <rich-text config=\"highlight\">$email</rich-text>';
+  }
+
+  @override
+  String get feedback_context_clarify_tag_1 => '요청을 제대로 이해하지 못했어요';
+
+  @override
+  String get feedback_context_clarify_tag_2 => '더 쉬운 설명이 필요해요';
+
+  @override
+  String get feedback_context_clarify_tag_3 => '질문이 너무 많아 초점이 흐려졌어요';
+
+  @override
+  String get feedback_detailed_description =>
+      '문제를 보다 신속하게 파악하고 해결할 수 있도록, 문제를 자세히 설명하고 프로젝트 공유 링크를 첨부해 주세요.';
+
+  @override
+  String get feedback_feedback_description => '문제 설명';
+
+  @override
+  String get feedback_feedback_hint => '문제를 구체적으로 작성해주세요';
+
+  @override
+  String get feedback_feedback_success => '제출 완료';
+
+  @override
+  String get feedback_feedback_upload => '이미지 업로드 (최대 3장)';
+
+  @override
+  String get feedback_idea_feedback => '피드백';
+
+  @override
+  String get feedback_like_main_tag_1 => '작업 시간이 예상과 일치함';
+
+  @override
+  String get feedback_like_main_tag_2 => '작업 조작이 간편함';
+
+  @override
+  String get feedback_like_main_tag_3 => '작업 흐름이 명확하고 이해하기 쉬움';
+
+  @override
+  String get feedback_like_main_tag_4 => '작업의 유연한 조정 가능';
+
+  @override
+  String get feedback_like_main_tag_5 => '작업 도구 호출이 적절함';
+
+  @override
+  String get feedback_like_main_title => '작업 수행 중 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_sub_tag_101_1 => '문서가 지시에 따라 생성됨';
+
+  @override
+  String get feedback_like_sub_tag_101_2 => '문서 내용이 깊이 있음';
+
+  @override
+  String get feedback_like_sub_tag_101_3 => '문서 이미지가 우수함';
+
+  @override
+  String get feedback_like_sub_tag_101_4 => '문서 데이터가 정확함';
+
+  @override
+  String get feedback_like_sub_tag_101_5 => '문서 레이아웃이 좋음';
+
+  @override
+  String get feedback_like_sub_tag_101_6 => '문서 다운로드 품질이 좋음';
+
+  @override
+  String get feedback_like_sub_tag_102_1 => '내용이 정확함';
+
+  @override
+  String get feedback_like_sub_tag_102_2 => '표현이 자연스럽고 명확함';
+
+  @override
+  String get feedback_like_sub_tag_102_3 => '구조가 완전하고 논리적임(표지, 요약, 챕터 구성 등)';
+
+  @override
+  String get feedback_like_sub_tag_102_4 => '예시가 구체적이고 이해하기 쉬움';
+
+  @override
+  String get feedback_like_sub_tag_102_5 => '템플릿 스타일이 기대에 부합함';
+
+  @override
+  String get feedback_like_sub_tag_102_6 => '레이아웃이 깔끔하고 보기 좋음';
+
+  @override
+  String get feedback_like_sub_tag_102_7 => '차트/이미지가 선명하고 유용함';
+
+  @override
+  String get feedback_like_sub_tag_102_8 => '작업 절차가 원활하고 생성 속도가 빠름';
+
+  @override
+  String get feedback_like_sub_tag_103_1 => '데이터가 정확함';
+
+  @override
+  String get feedback_like_sub_tag_103_2 => '데이터 검색 속도가 빠름';
+
+  @override
+  String get feedback_like_sub_tag_103_3 => '데이터 분석이 깊이 있음';
+
+  @override
+  String get feedback_like_sub_tag_103_4 => '표 구조가 명확하고 미려하며 읽기 쉬움';
+
+  @override
+  String get feedback_like_sub_tag_103_5 => '지원하는 쿼리 또는 분석 기능이 유용함';
+
+  @override
+  String get feedback_like_sub_tag_104_1 => '내용이 흥미로움';
+
+  @override
+  String get feedback_like_sub_tag_104_2 => '대화가 자연스럽고 매끄러움';
+
+  @override
+  String get feedback_like_sub_tag_104_3 => '내용이 주제와 밀접하게 관련 있음';
+
+  @override
+  String get feedback_like_sub_tag_104_4 => '오디오 품질이 높음';
+
+  @override
+  String get feedback_like_sub_tag_105_1 => '내용이 정확함';
+
+  @override
+  String get feedback_like_sub_tag_105_2 => '레이아웃이 미려하고 구조가 합리적임';
+
+  @override
+  String get feedback_like_sub_tag_105_3 => '이미지가 텍스트와 잘 연관되어 있음';
+
+  @override
+  String get feedback_like_sub_tag_105_4 => '로딩 속도가 빠름';
+
+  @override
+  String get feedback_like_sub_tag_105_5 => '보조 내비게이션이 우수함';
+
+  @override
+  String get feedback_like_sub_title_101 => '문서 콘텐츠 생성 시 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_sub_title_102 => 'PPT 콘텐츠 생성 시 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_sub_title_103 => '표 콘텐츠 생성 시 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_sub_title_104 => '팟캐스트 콘텐츠 생성 시 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_sub_title_105 => '웹페이지 콘텐츠 생성 시 어떤 점이 만족스러웠나요?';
+
+  @override
+  String get feedback_like_title => '만족하신 부분은 무엇인가요?';
+
+  @override
+  String get feedback_like_toast => '응원과 사랑에 감사드립니다! 더 나은 서비스를 위해 계속 노력하겠습니다.';
+
+  @override
+  String get feedback_outline_takeover_tag_1 => '핵심 내용이 부족해요';
+
+  @override
+  String get feedback_outline_takeover_tag_2 => '구조가 혼란스러워요';
+
+  @override
+  String get feedback_outline_takeover_tag_3 => '내용이 반복되거나 빈약해요';
+
+  @override
+  String get feedback_outline_takeover_tag_4 => '주제에서 벗어났어요';
+
+  @override
+  String get feedback_problem_description => '문제 설명';
+
+  @override
+  String get feedback_prodata_clarify_tag_1 => '추천된 데이터가 질문과 관련이 없습니다';
+
+  @override
+  String get feedback_prodata_clarify_tag_2 => '내용이 평범하며 일반 답변과 큰 차이가 없습니다';
+
+  @override
+  String get feedback_prodata_clarify_tag_3 => '더 다양한 분야의 데이터를 추가해 주세요';
+
+  @override
+  String get feedback_submit => '제출';
+
+  @override
+  String get feedback_unlike_main_tag_1 => '작업 시간이 오래 걸림';
+
+  @override
+  String get feedback_unlike_main_tag_2 => '조작이 번거로움';
+
+  @override
+  String get feedback_unlike_main_tag_3 => '작업 생성 및 흐름이 복잡함';
+
+  @override
+  String get feedback_unlike_main_tag_4 => '작업의 유연성이 부족함';
+
+  @override
+  String get feedback_unlike_main_tag_5 => '작업 시 mcp 도구 호출이 복잡함';
+
+  @override
+  String get feedback_unlike_main_title => '작업 수행 중 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_sub_tag_101_1 => '지시에 따라 문서가 생성되지 않음';
+
+  @override
+  String get feedback_unlike_sub_tag_101_2 => '문서 내용이 깊이 없음';
+
+  @override
+  String get feedback_unlike_sub_tag_101_3 => '문서 이미지가 부실함';
+
+  @override
+  String get feedback_unlike_sub_tag_101_4 => '문서 레이아웃이 나쁨';
+
+  @override
+  String get feedback_unlike_sub_tag_101_5 => '문서 다운로드 품질이 낮음';
+
+  @override
+  String get feedback_unlike_sub_tag_102_1 => '사실 오류가 있음';
+
+  @override
+  String get feedback_unlike_sub_tag_102_2 => '핵심 내용이 생성되지 않음';
+
+  @override
+  String get feedback_unlike_sub_tag_102_3 => '응답 내용이 너무 모호함';
+
+  @override
+  String get feedback_unlike_sub_tag_102_4 => '구체적인 예시가 부족함';
+
+  @override
+  String get feedback_unlike_sub_tag_102_5 => '생성된 내용의 형식이 혼란스럽거나 문장이 어색함';
+
+  @override
+  String get feedback_unlike_sub_tag_102_6 => '중복, 깨짐 등의 이상 현상 발생';
+
+  @override
+  String get feedback_unlike_sub_tag_102_7 => '이미지 누락 또는 레이아웃 오류 (공백, 넘침 등)';
+
+  @override
+  String get feedback_unlike_sub_tag_102_8 => '다운로드 실패 또는 형식 오류, 느린 로딩 문제';
+
+  @override
+  String get feedback_unlike_sub_tag_103_1 => '데이터가 부정확함';
+
+  @override
+  String get feedback_unlike_sub_tag_103_2 => '검색 속도가 느림';
+
+  @override
+  String get feedback_unlike_sub_tag_103_3 => '분석이 부족함';
+
+  @override
+  String get feedback_unlike_sub_tag_103_4 => '레이아웃이 혼란스러움';
+
+  @override
+  String get feedback_unlike_sub_tag_103_5 => '기능이 부족함';
+
+  @override
+  String get feedback_unlike_sub_tag_104_1 => '주제에서 벗어난 내용';
+
+  @override
+  String get feedback_unlike_sub_tag_104_2 => '대화가 부자연스러움';
+
+  @override
+  String get feedback_unlike_sub_tag_104_3 => '내용이 얕음';
+
+  @override
+  String get feedback_unlike_sub_tag_104_4 => '오디오 품질이 낮음';
+
+  @override
+  String get feedback_unlike_sub_tag_105_1 => '사실 오류가 있음';
+
+  @override
+  String get feedback_unlike_sub_tag_105_2 => '페이지 로딩이 느리거나 실패함';
+
+  @override
+  String get feedback_unlike_sub_tag_105_3 => '구조가 혼란스러움';
+
+  @override
+  String get feedback_unlike_sub_tag_105_4 => '이미지가 흐리거나 텍스트와 일치하지 않음';
+
+  @override
+  String get feedback_unlike_sub_tag_105_5 => '저작권 문제';
+
+  @override
+  String get feedback_unlike_sub_title_101 => '문서 콘텐츠 생성 시 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_sub_title_102 => 'PPT 콘텐츠 생성 시 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_sub_title_103 => '표 콘텐츠 생성 시 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_sub_title_104 => '팟캐스트 콘텐츠 생성 시 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_sub_title_105 => '웹페이지 콘텐츠 생성 시 어떤 점이 불만족스러웠나요?';
+
+  @override
+  String get feedback_unlike_title => '불편을 드려 진심으로 사과드립니다. 개선이 필요한 부분을 알려주세요.';
+
+  @override
+  String get feedback_unlike_toast => '소중한 의견 감사합니다. 여러분의 피드백은 저희에게 매우 중요합니다.';
+
+  @override
+  String get feedback_upload_picture => '이미지 업로드 (최대 3장 업로드 가능)';
+
+  @override
+  String get feedback_use_tool_tag_1 => '분해가 명확하지 않아요';
+
+  @override
+  String get feedback_use_tool_tag_2 => '핵심 단계가 누락되었어요';
+
+  @override
+  String get feedback_use_tool_tag_3 => '불필요한 단계가 포함되어 있어요';
+
+  @override
+  String file_count_limit_tips(Object count) {
+    return '최대 $count개의 파일 지원';
+  }
+
+  @override
+  String get file_list => '파일 목록';
+
+  @override
+  String file_max_limit_tips(Object limit) {
+    return '파일은 최대 $limit를 초과할 수 없습니다';
+  }
+
+  @override
+  String get file_not_exist_or_corrupt_tips => '파일이 없거나 손상되었습니다. 다시 다운로드하세요.';
+
+  @override
+  String get file_parsing_failed => '파일 분석 실패. 다시 업로드해 주세요';
+
+  @override
+  String get folder => '폴더';
+
+  @override
+  String get free_general_limit_cancel_tip => '크레디트가 부족하여 응답이 중단되었습니다';
+
+  @override
+  String get free_general_limit_tooltip_button => '멤버십 업그레이드';
+
+  @override
+  String get free_general_limit_tooltip_text => '크레디트가 부족하여 응답이 중단되었습니다';
+
+  @override
+  String get free_limit_tooltip_cancel_text => '크레딧이 부족하여 작업이 취소되었습니다.';
+
+  @override
+  String get free_limit_tooltip_upgrad_button => '계속하기';
+
+  @override
+  String get free_limit_tooltip_upgrad_title => '업그레이드가 완료되었습니다. 작업을 계속하세요.';
+
+  @override
+  String get free_limit_tooltip_wait_button => '멤버십 업그레이드';
+
+  @override
+  String get free_limit_tooltip_wait_text =>
+      '10분 이내에 업그레이드하면 작업을 계속할 수 있습니다. 그렇지 않으면 작업이 취소됩니다.';
+
+  @override
+  String get free_limit_tooltip_wait_titile =>
+      '무료 크레딧이 부족합니다. 멤버십을 업그레이드해 주세요.';
+
+  @override
+  String get function_analysis => '분석';
+
+  @override
+  String get function_mindmap => '마인드맵';
+
+  @override
+  String get function_summary => '요약';
+
+  @override
+  String get general_data_error => '데이터 이상';
+
+  @override
+  String get general_invalid_parameter => '매개변수 오류';
+
+  @override
+  String get general_mode_onboarding_a => '다음 작업은 Skywork가 도와드릴게요.';
+
+  @override
+  String get general_mode_onboarding_q =>
+      '생동감 있는 《청명상하도》를 만들어 주세요. 배경 음악을 넣고, 등장인물을 클릭하면 정보를 볼 수 있게 해 주세요.';
+
+  @override
+  String get general_mode_onboarding_subtitle =>
+      '풍부한 MCP 도구와 결합되어 모든 문제를 유연하게 해결할 수 있습니다';
+
+  @override
+  String get general_mode_onboarding_title => '올인원 범용 에이전트';
+
+  @override
+  String get general_operation_fail => '작업에 실패했습니다';
+
+  @override
+  String get general_operation_success => '작업이 성공했습니다';
+
+  @override
+  String get get_credit_pop_button => '확인했습니다';
+
+  @override
+  String get go_recharge => '충전하기';
+
+  @override
+  String get historical_search => '검색 기록';
+
+  @override
+  String get home_button_my => '나의';
+
+  @override
+  String get home_project_agent => '에이전트';
+
+  @override
+  String get home_prompt_content_1 => '전 세계 AI 최신 동향을 검색하고 요약해서 문서를 생성해 주세요.';
+
+  @override
+  String get home_prompt_content_2 => '아기 고양이의 모험을 그린 4컷 만화를 생성해 주세요.';
+
+  @override
+  String get home_prompt_content_3 =>
+      '최근 7일간 뉴욕의 날씨 정보를 수집하고 의상에 대한 조언을 해 주세요.';
+
+  @override
+  String get home_prompt_content_4 =>
+      '비 오는 날에서 영감을 받은 피아노 곡을 생성하고, 어울리는 커버 이미지를 함께 만들어 주세요.';
+
+  @override
+  String get home_prompt_content_5 => '유제품에 대한 홍보 영상을 생성해 주세요.';
+
+  @override
+  String get home_prompt_content_6 =>
+      '11월에 두 사람이 교토로 단풍 구경을 가는 여행 가이드를 만들어 주세요.';
+
+  @override
+  String get home_prompt_title_1 => '최신 AI 뉴스 요약';
+
+  @override
+  String get home_prompt_title_2 => '재미있는 만화 만들기';
+
+  @override
+  String get home_prompt_title_3 => '의상 추천';
+
+  @override
+  String get home_prompt_title_4 => '음악 및 커버 생성';
+
+  @override
+  String get home_prompt_title_5 => '홍보 영상 만들기';
+
+  @override
+  String get home_prompt_title_6 => '여행 가이드';
+
+  @override
+  String get home_top_title => 'Skywork 슈퍼 에이전트';
+
+  @override
+  String get homepage_casedisplay => '사례 보기';
+
+  @override
+  String get homepage_skywork_superagent => '천공 슈퍼 지능 에이전트';
+
+  @override
+  String image_max_limit_tips(Object limit) {
+    return '이미지는 최대 $limit를 초과할 수 없습니다';
+  }
+
+  @override
+  String get input_box_abstract => '요약';
+
+  @override
+  String get input_box_analysis => '분석';
+
+  @override
+  String get input_box_confirm => '확인';
+
+  @override
+  String get input_box_confirm_again => '확인';
+
+  @override
+  String get input_box_confirm_third => '확인';
+
+  @override
+  String get input_box_copy => '복사';
+
+  @override
+  String get input_box_document => '문서';
+
+  @override
+  String get input_box_download_image => '이미지 다운로드';
+
+  @override
+  String get input_box_export_excel => 'Excel로 내보내기';
+
+  @override
+  String get input_box_filename => '파일 이름';
+
+  @override
+  String get input_box_image => '이미지';
+
+  @override
+  String get input_box_keyword => '키워드';
+
+  @override
+  String get input_box_mindmap => '마인드맵';
+
+  @override
+  String get input_box_multimedia => '멀티미디어';
+
+  @override
+  String get input_box_summary => '요약';
+
+  @override
+  String get input_box_table => '스프레드시트';
+
+  @override
+  String get input_box_webpage => '웹페이지';
+
+  @override
+  String get input_box_webpage_again => '웹페이지';
+
+  @override
+  String get input_or_past_link => '링크 입력 또는 붙여넣기';
+
+  @override
+  String get input_text => '텍스트 내용을 입력하세요';
+
+  @override
+  String invite_content(Object count) {
+    return '하루 최대$count명 초대 가능, 가입 시 포인트 보상 지급';
+  }
+
+  @override
+  String get invite_copy_link => '링크 복사';
+
+  @override
+  String get invite_entry_text => '친구 초대하고 포인트 받기';
+
+  @override
+  String get invite_tab_text => '친구를 초대해 가입하면 포인트 보상 지급';
+
+  @override
+  String get ios_permission_camera =>
+      '작업 생성 시 이미지 업로드 및 프로필 사진 수정을 위해 카메라 접근 권한을 허용해 주세요';
+
+  @override
+  String get ios_permission_files => '파일 업로드, 다운로드 및 분석을 위해 파일 접근 권한을 활성화하세요';
+
+  @override
+  String get ios_permission_idfa => '앱 사용 분석 및 서비스 개선을 위해 IDFA 권한을 활성화하세요';
+
+  @override
+  String get ios_permission_notices => '작업 상태 알림을 놓치지 않도록 알림 권한을 활성화하세요';
+
+  @override
+  String get ios_permission_photos =>
+      '작업 생성 시 이미지 업로드 및 프로필 사진 수정을 위해 사진 앨범 접근 권한을 허용해 주세요';
+
+  @override
+  String get join_discord => '디스코드 참여하기';
+
+  @override
+  String get just_now => '방금';
+
+  @override
+  String get knowledge_base_download_downloading => '다운로드 중';
+
+  @override
+  String get license_publicity => '인증서 공개';
+
+  @override
+  String get link => '링크';
+
+  @override
+  String get local => '로컬';
+
+  @override
+  String get log_and => '및';
+
+  @override
+  String get log_by_registering => '회원가입 시 당사의 에 동의하는 것으로 간주합니다';
+
+  @override
+  String get log_check_folder => '인증번호를 받지 못했다면 스팸 메일함을 확인해 주세요';
+
+  @override
+  String get log_continue => '계속하기';
+
+  @override
+  String get log_email_address => '이메일 주소';
+
+  @override
+  String get log_enter_code => '인증 코드를 입력해 주세요';
+
+  @override
+  String get log_get_code => '인증 코드 받기';
+
+  @override
+  String get log_go_back => '뒤로 가기';
+
+  @override
+  String get log_in_fail => '로그인 실패';
+
+  @override
+  String get log_in_success => '로그인 성공';
+
+  @override
+  String get log_log_in => '로그인/회원가입';
+
+  @override
+  String get log_out_account => '로그아웃';
+
+  @override
+  String get log_out_account_again => '현재 계정에서 로그아웃하시겠습니까?';
+
+  @override
+  String get log_out_account_calcel => '취소';
+
+  @override
+  String get log_out_account_confirm => '로그아웃';
+
+  @override
+  String get log_privacy_policy =>
+      '<rich-text config=\"highlight\">개인정보 처리방침</rich-text>';
+
+  @override
+  String get log_privacy_policy_1 => '개인정보 처리방침';
+
+  @override
+  String get log_terms_service =>
+      '<rich-text config=\"highlight\">서비스 약관</rich-text>';
+
+  @override
+  String get log_terms_service_1 => '서비스 약관';
+
+  @override
+  String get log_verification_code => '이메일을 입력하고 인증 코드로 로그인하세요';
+
+  @override
+  String get log_welcome_skywork => 'Skywork에 오신 것을 환영합니다';
+
+  @override
+  String get log_with_apple => 'Apple 계정으로 로그인';
+
+  @override
+  String get log_with_email => '이메일로 로그인';
+
+  @override
+  String get log_with_email_email => '이메일로 로그인';
+
+  @override
+  String get log_with_google => 'Google로 로그인';
+
+  @override
+  String get mark_description_document => '다양한 템플릿으로 더 전문적이고 효율적입니다';
+
+  @override
+  String get mark_description_general_agent => '검색, 분석, 생성이 모두 가능한 범용 도구';
+
+  @override
+  String get mark_description_podcast => '원고 작성과 녹음까지, 더 전문적이고 유용합니다';
+
+  @override
+  String get mark_description_ppt => '레이아웃과 콘텐츠 모두 이해해 더 전문적이고 수월합니다';
+
+  @override
+  String get mark_description_table => '데이터를 처리하고 분석하여 더 전문적이고 스마트합니다';
+
+  @override
+  String get mark_description_webpage => '디자인과 개발을 모두 다뤄 더 전문적이고 간편합니다';
+
+  @override
+  String mark_doc_estimate(Object count) {
+    return '$count개의 문서 또는';
+  }
+
+  @override
+  String get mark_pkg_daily => '로그인 적립 포인트';
+
+  @override
+  String get mark_pkg_event => '이벤트 보너스';
+
+  @override
+  String get mark_pkg_expire => '만료됨';
+
+  @override
+  String get mark_pkg_fresh => '신규 사용자 보너스';
+
+  @override
+  String get mark_pkg_number => '멤버십 크레딧';
+
+  @override
+  String get mark_pkg_recharge => '충전하기';
+
+  @override
+  String mark_podcast_estimate(Object count) {
+    return '$count개의 팟캐스트 또는';
+  }
+
+  @override
+  String mark_ppt_estimate(Object count) {
+    return '$count개의 슬라이드 또는';
+  }
+
+  @override
+  String mark_sheets_estimate(Object count) {
+    return '$count개의 스프레드시트 생성 가능';
+  }
+
+  @override
+  String get mark_task_time_limit_rule =>
+      '작업 설명:\\n\n작업 완료 또는 일시 중지 후 30분 내에 새 대화를 시작하지 않으면 시스템이 자동으로 종료합니다.\\n\n작업을 수행하면 크레딧이 차감되며, 복잡할수록 더 많이 소모됩니다.\\n\n전문가 수준의 에이전트는 보다 전문적인 결과를 제공하며, 10~25분이 소요됩니다.';
+
+  @override
+  String mark_website_estimate(Object count) {
+    return '$count개의 웹페이지 또는';
+  }
+
+  @override
+  String get markdown_markdown_code_copy => '복사';
+
+  @override
+  String get member_general_limit_cancel_tip => '크레디트가 부족하여 응답이 중단되었습니다';
+
+  @override
+  String get member_general_limit_tooltip_button => '크레딧 충전';
+
+  @override
+  String get member_general_limit_tooltip_text => '크레디트가 부족하여 응답이 중단되었습니다';
+
+  @override
+  String get member_limit_tooltip_cancel_text => '크레딧이 부족하여 작업이 취소되었습니다.';
+
+  @override
+  String get member_limit_tooltip_recharge_button => '계속하기';
+
+  @override
+  String get member_limit_tooltip_recharge_title =>
+      '충전이 완료되었습니다. 작업을 계속할 수 있습니다';
+
+  @override
+  String get member_limit_tooltip_wait_button => '크레딧 충전';
+
+  @override
+  String get member_limit_tooltip_wait_text =>
+      '10분 이내에 충전하면 작업을 계속할 수 있으며, 그렇지 않으면 작업이 취소됩니다';
+
+  @override
+  String get member_limit_tooltip_wait_titile => '크레디트가 부족합니다. 빠른 시일 내에 충전해주세요';
+
+  @override
+  String get member_recharge_cannot_upgrade_button => '구독 완료';
+
+  @override
+  String get member_recharge_resubscribe_button => '다시 구독하기';
+
+  @override
+  String get member_recharge_the_highest_plan_button => '현재 최상위 멤버십을 사용 중입니다';
+
+  @override
+  String get member_resubscribe_button => '다시 구독하기';
+
+  @override
+  String get member_resubscribe_cancel_button => '취소';
+
+  @override
+  String get member_resubscribe_got_it_button => '알겠습니다';
+
+  @override
+  String get member_resubscribe_payment_cancel => '결제 취소됨';
+
+  @override
+  String get member_resubscribe_payment_cancel_confirm => '결제를 취소하시겠습니까?';
+
+  @override
+  String get member_resubscribe_payment_error => '결제 오류';
+
+  @override
+  String get member_resubscribe_payment_error_text =>
+      '결제를 완료했지만 혜택을 받지 못한 경우 고객센터에 문의해 주세요.';
+
+  @override
+  String get member_resubscribe_payment_failed => '결제 실패';
+
+  @override
+  String get member_resubscribe_payment_success => '결제 성공';
+
+  @override
+  String member_resubscribe_plan(Object price, Object time) {
+    return '$price/$time';
+  }
+
+  @override
+  String get member_resubscribe_retry_button => '다시 시도하기';
+
+  @override
+  String member_resubscribe_text(Object edays, Object price, Object time) {
+    return '재구독하시면 현재 구독은 $edays에 종료되며, 이후 $price/$time로 자동 갱신이 재개되고 자동 결제가 이루어진 후 새로운 구독 주기가 시작됩니다。';
+  }
+
+  @override
+  String member_resubscribe_title(Object membership_name) {
+    return '$membership_name 멤버십 재구독';
+  }
+
+  @override
+  String get member_subscribe_not_supported_on_app => '앱 미지원';
+
+  @override
+  String get member_upgrade_button => '업그레이드';
+
+  @override
+  String get member_upgrade_completed_tasks_illustrate =>
+      '작업 개수는 예상치이며, 실제 생성 수량에 따릅니다';
+
+  @override
+  String get member_upgrade_completed_tasks_number =>
+      '크레딧으로 몇 개의 작업을 수행할 수 있나요?';
+
+  @override
+  String member_upgrade_concurrent_tasks(Object count) {
+    return '동시 수행 가능 작업 수 $count개';
+  }
+
+  @override
+  String get member_upgrade_confirmation_button => '확인';
+
+  @override
+  String member_upgrade_confirmation_confirm_information_month(
+      Object count, Object membership_name) {
+    return '$count/월 요금으로 $membership_name회원으로 업그레이드하는 것을 확인합니다.';
+  }
+
+  @override
+  String member_upgrade_confirmation_confirm_information_year(
+      Object count, Object membership_name) {
+    return '$count/년 요금으로 $membership_name회원으로 업그레이드하는 것을 확인합니다.';
+  }
+
+  @override
+  String member_upgrade_confirmation_content(
+      Object count, Object days, Object membership_name) {
+    return '$membership_name으로 업그레이드를 확정하시면, 현재 결제 주기의 남은 $days일에 대한 비용 $count이 즉시 청구됩니다. 다음 결제 주기부터는 새로운 가격으로 자동 갱신됩니다.';
+  }
+
+  @override
+  String member_upgrade_confirmation_title(Object membership_name) {
+    return '$membership_name으로 업그레이드';
+  }
+
+  @override
+  String get member_upgrade_credit_recharge_button => '크레딧 충전';
+
+  @override
+  String get member_upgrade_credit_recharge_tips =>
+      '무료 회원은 크레딧을 별도로 구매할 수 없습니다. 먼저 멤버십을 업그레이드하세요.';
+
+  @override
+  String get member_upgrade_current_member_button => '현재 멤버십';
+
+  @override
+  String get member_upgrade_dedicated_generation_channel => '전용 작업 생성 채널';
+
+  @override
+  String member_upgrade_discount_corner_mark(Object count) {
+    return '$count% 할인';
+  }
+
+  @override
+  String member_upgrade_docx_download(Object count) {
+    return 'DOCX 형식 다운로드 $count회/월';
+  }
+
+  @override
+  String member_upgrade_estimated_free_number(Object count) {
+    return '매월 $count회 크레딧 예측';
+  }
+
+  @override
+  String member_upgrade_estimated_pay_number(Object count) {
+    return '$count회 크레딧 예측 체험';
+  }
+
+  @override
+  String get member_upgrade_free_ppt_template_number => '슬라이드 템플릿 업로드 1회 체험';
+
+  @override
+  String member_upgrade_google_slides_download(Object count) {
+    return 'Google Slides에 저장 $count회/월';
+  }
+
+  @override
+  String get member_upgrade_instruction => '멤버십을 업그레이드하고 더 많은 혜택을 누리세요';
+
+  @override
+  String member_upgrade_login_points_benefits_first(Object count, Object days) {
+    return '가입 첫 달 동안 매일 $count 로그인 크레딧 제공 ($days일 유효)';
+  }
+
+  @override
+  String member_upgrade_login_points_benefits_next(Object count, Object days) {
+    return '가입 두 번째 달부터는 매주 $count 로그인 크레딧 제공 ($days일 유효)';
+  }
+
+  @override
+  String get member_upgrade_member_name_basic => '베이식';
+
+  @override
+  String get member_upgrade_member_name_free => '프리';
+
+  @override
+  String get member_upgrade_member_name_plus => '스탠다드';
+
+  @override
+  String get member_upgrade_member_name_pro => '프로';
+
+  @override
+  String member_upgrade_member_upgrade_button(Object membership_name) {
+    return '$membership_name으로 업그레이드';
+  }
+
+  @override
+  String member_upgrade_month_member_points(Object count) {
+    return '매월 $count크레딧 제공';
+  }
+
+  @override
+  String get member_upgrade_multi_terminal_synchronization =>
+      '웹, iOS, Android 간 데이터 동기화';
+
+  @override
+  String get member_upgrade_normal_generation_channel => '일반 작업 생성 채널';
+
+  @override
+  String get member_upgrade_payment_ppt_template_number =>
+      '크레딧을 사용하여 슬라이드 템플릿 업로드';
+
+  @override
+  String member_upgrade_pdf_download(Object count) {
+    return 'PDF 형식 다운로드 $count회/월';
+  }
+
+  @override
+  String get member_upgrade_points_not_supported => '크레딧 패키지 구매 불가';
+
+  @override
+  String get member_upgrade_points_supported => '크레딧 패키지 구매 가능';
+
+  @override
+  String member_upgrade_pptx_download(Object count) {
+    return 'PPTX 형식 다운로드 $count회/월';
+  }
+
+  @override
+  String get member_upgrade_premium_ppt_template => '회원 전용 프리미엄 슬라이드 템플릿';
+
+  @override
+  String member_upgrade_premium_professional_database(Object count) {
+    return '매월 $count회 전문 데이터베이스 사용';
+  }
+
+  @override
+  String get member_upgrade_premium_professional_database_explanation =>
+      '금융: 글로벌\n법률: GovInfo – 미국 한정; e-Gov – 일본 한정\n학술: 일본 한정';
+
+  @override
+  String member_upgrade_professional_database(Object count) {
+    return '$count회 전문 데이터베이스 체험';
+  }
+
+  @override
+  String member_upgrade_subscription_cycle_month(Object count) {
+    return '$count/월';
+  }
+
+  @override
+  String get member_upgrade_subscription_cycle_month_illustrate => '월별 청구';
+
+  @override
+  String member_upgrade_subscription_cycle_year(Object count) {
+    return '$count/년';
+  }
+
+  @override
+  String get member_upgrade_subscription_cycle_year_illustrate => '연별 청구';
+
+  @override
+  String member_upgrade_subscription_information(Object etime, Object stime) {
+    return '$stime - $etime';
+  }
+
+  @override
+  String get member_upgrade_subscription_time_month => '/월';
+
+  @override
+  String get member_upgrade_subscription_time_year => '/년';
+
+  @override
+  String get member_upgrade_support_agent_type =>
+      '문서, 프레젠테이션, 스프레드시트, 팟캐스트, 웹, 범용 Agent 지원';
+
+  @override
+  String get member_upgrade_support_edit_function => '문서 및 프레젠테이션 편집 지원';
+
+  @override
+  String get member_upgrade_support_fold => '접기';
+
+  @override
+  String get member_upgrade_support_mcp_tool =>
+      'Deep Research 등 100개 이상의 MCP 도구 호출 지원';
+
+  @override
+  String get member_upgrade_support_premium_benefit => '회원 혜택';
+
+  @override
+  String get member_upgrade_support_share_function => '결과물 공유 및 권한 설정 지원';
+
+  @override
+  String get member_upgrade_support_unfold => '펼치기';
+
+  @override
+  String get member_upgrade_tab_month => '매월';
+
+  @override
+  String get member_upgrade_tab_year => '매년';
+
+  @override
+  String get member_upgrade_title => '멤버십 구독';
+
+  @override
+  String get member_upgrade_title_benefits => '기능 혜택';
+
+  @override
+  String get member_upgrade_title_credits => '크레딧 적립';
+
+  @override
+  String get member_upgrade_title_features => '제품 특징';
+
+  @override
+  String get member_upgrade_unlimited_professional_database =>
+      '전문 데이터베이스 무제한 이용';
+
+  @override
+  String get midpage_aicontent_disclaimer =>
+      'Skywork에서 생성된 콘텐츠에 오류가 있을 수 있으니 꼭 확인해 주세요.';
+
+  @override
+  String get midpage_file_deleteaction => '파일 삭제';
+
+  @override
+  String get midpage_file_deleteall => '전체 삭제';
+
+  @override
+  String get midpage_file_deletecancelbtn => '취소';
+
+  @override
+  String get midpage_file_deleteconfirm => '선택한 파일을 삭제하시겠습니까?';
+
+  @override
+  String get midpage_file_deleteconfirmbtn => '확인';
+
+  @override
+  String get midpage_file_retryaction => '다시 시도';
+
+  @override
+  String get midpage_filelist_title => '파일 목록';
+
+  @override
+  String get midpage_generalagent => '범용 에이전트';
+
+  @override
+  String get midpage_input_contentprompt => '내용을 입력해 주세요';
+
+  @override
+  String get midpage_template_title => '템플릿';
+
+  @override
+  String midpage_upload_excelcountlimit(Object count) {
+    return '최대 $count개의 스프레드시트를 업로드할 수 있으며, 한도를 초과했습니다';
+  }
+
+  @override
+  String get midpage_upload_file_answer_prompt => '업로드한 파일을 기반으로 답변 생성';
+
+  @override
+  String get midpage_upload_file_answer_prompt_doc => '업로드한 파일을 기반으로 문서 생성';
+
+  @override
+  String get midpage_upload_file_answer_prompt_podcast =>
+      '업로드한 파일을 기반으로 팟캐스트 생성';
+
+  @override
+  String get midpage_upload_file_answer_prompt_ppt => '업로드한 파일을 기반으로 슬라이드 생성';
+
+  @override
+  String get midpage_upload_file_answer_prompt_sheet => '업로드한 파일을 기반으로 표 생성';
+
+  @override
+  String get midpage_upload_file_answer_prompt_web => '업로드한 파일을 기반으로 웹페이지 생성';
+
+  @override
+  String midpage_upload_filecountlimit(Object count) {
+    return '최대 $count개의 파일을 업로드할 수 있으며, 한도를 초과했습니다';
+  }
+
+  @override
+  String get midpage_upload_loading => '업로드 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String get mine_colortheme_darkmode => '다크 모드';
+
+  @override
+  String get mine_colortheme_entry => '색상 테마';
+
+  @override
+  String get mine_colortheme_followsystem => '시스템 설정 따르기';
+
+  @override
+  String get mine_colortheme_lightmode => '라이트 모드';
+
+  @override
+  String get mine_language_entry => '언어';
+
+  @override
+  String get move_to_successful => '이동 성공';
+
+  @override
+  String get msg_allread_action => '모두 읽음 표시';
+
+  @override
+  String get msg_allread_action_confirm => '모두 읽음으로 표시하시겠습니까?';
+
+  @override
+  String get msg_allread_action_confirm_button => '확인';
+
+  @override
+  String get msg_allread_action_confirm_cancel => '취소';
+
+  @override
+  String get msg_collapse_action => '접기';
+
+  @override
+  String get msg_expand_action => '펼치기';
+
+  @override
+  String get msg_notice_title => '알림';
+
+  @override
+  String get mywork_no_files => '프로젝트 파일이 없습니다';
+
+  @override
+  String get mywork_tab_all => '전체';
+
+  @override
+  String get mywork_tab_audio => '오디오';
+
+  @override
+  String get mywork_tab_code => '코드';
+
+  @override
+  String get mywork_tab_gen_doc => '문서';
+
+  @override
+  String get mywork_tab_gen_excel => '스프레드시트';
+
+  @override
+  String get mywork_tab_gen_podcast => '팟캐스트';
+
+  @override
+  String get mywork_tab_gen_ppt => '슬라이드';
+
+  @override
+  String get mywork_tab_image => '이미지';
+
+  @override
+  String get mywork_tab_text => '텍스트';
+
+  @override
+  String get mywork_tab_video => '비디오';
+
+  @override
+  String get mywork_tab_website => '웹페이지';
+
+  @override
+  String get network_offline_toast => '네트워크가 끊겼습니다. 네트워크 설정을 확인해주세요';
+
+  @override
+  String get network_restore_toast => '네트워크가 복구되었습니다';
+
+  @override
+  String get new_upload_refer_following_resources_app =>
+      '다음 리소스를 참고하여 대화가 진행됩니다';
+
+  @override
+  String get no_limit => '제한 없음';
+
+  @override
+  String get no_more_content => '더 이상 없습니다';
+
+  @override
+  String get notification => '알림';
+
+  @override
+  String get onboarding_next => '다음';
+
+  @override
+  String get onboarding_skip => '건너뛰기';
+
+  @override
+  String get ondoarding_try_it_now => '지금 바로 체험해 보세요!';
+
+  @override
+  String get open_discord_fail => 'Discord를 열 수 없습니다';
+
+  @override
+  String get opening_get_started => '시작하기';
+
+  @override
+  String get opening_skywork_super_agents => '천공 슈퍼 지능 에이전트';
+
+  @override
+  String get overload_system_toast => '시스템이 바쁩니다. 잠시 후 다시 시도해주세요';
+
+  @override
+  String get permission_album => '사진 앨범 권한';
+
+  @override
+  String get permission_album_required => '앨범 접근 권한 필요';
+
+  @override
+  String get permission_album_required_text =>
+      '스크린샷을 업로드하려면 시스템 설정에서 앨범 읽기 권한을 먼저 활성화하세요.';
+
+  @override
+  String get permission_album_text =>
+      '문제 스크린샷을 업로드하려면 앨범 접근 권한이 필요합니다. 문제를 신속하게 파악할 수 있도록 권한을 허용해 주세요.';
+
+  @override
+  String get permission_allow => '허용';
+
+  @override
+  String get permission_apply => '권한 요청';
+
+  @override
+  String get permission_camera => '카메라 권한';
+
+  @override
+  String get permission_denied_tips => '권한이 없습니다';
+
+  @override
+  String get permission_deny => '허용 안 함';
+
+  @override
+  String get permission_file_manage => '파일 관리 권한';
+
+  @override
+  String permission_open(Object permission) {
+    return '“설정 - 앱 - $permission”에서 권한을 활성화해 주세요.';
+  }
+
+  @override
+  String permission_resource(Object permission) {
+    return '$permission 권한이 필요합니다. 다양한 형식의 리소스 파일을 선택하고 업로드하는 데 사용됩니다.';
+  }
+
+  @override
+  String get permission_storage => '파일 저장 권한';
+
+  @override
+  String permission_temp_file(Object permission) {
+    return '$permission 권한이 필요합니다. 로컬에 임시 텍스트 파일을 저장한 후 업로드하는 데 사용됩니다.';
+  }
+
+  @override
+  String get podcast_agent_onboarding_a => '팟캐스트 작성을 완료했어요.';
+
+  @override
+  String get podcast_agent_onboarding_subtitle =>
+      '자료를 지능적으로 수집하고 전문적으로 스크립트를 작성하고 녹음하여 모든 과정을 자동화합니다';
+
+  @override
+  String get podcast_agent_onboarding_title => '매우 간편한 팟캐스트 에이전트';
+
+  @override
+  String get podcast_script_speaker_1 => '여성 목소리';
+
+  @override
+  String get podcast_script_speaker_2 => '남성 목소리';
+
+  @override
+  String get ppt_agent_onboarding_a => '슬라이드 작성을 완료했습니다.';
+
+  @override
+  String get ppt_agent_onboarding_main_title => 'AI 슬라이드 전문가 에이전트';
+
+  @override
+  String get ppt_agent_onboarding_subtitle =>
+      '요구를 파악해 전문가급 콘텐츠와 디자인을 자동 생성, 이미지·영상 포함, PPTX로 쉽게 내보냅니다.';
+
+  @override
+  String get ppt_almost_done_hint => '마지막 한 걸음!';
+
+  @override
+  String get ppt_create_generate => '생성';
+
+  @override
+  String get ppt_create_number => '슬라이드 수';
+
+  @override
+  String get ppt_create_options =>
+      '기타 옵션\n해당 연설문 생성;\n이전 대화 기록 인용, 현재 프로젝트 대화 기록 인용';
+
+  @override
+  String get ppt_create_textcontent => '텍스트 내용';
+
+  @override
+  String get ppt_create_textnumber => '페이지당 글자 수';
+
+  @override
+  String get ppt_create_type => '유형: 심층／간결';
+
+  @override
+  String get ppt_cta_later_1 => '나중에 하기';
+
+  @override
+  String get ppt_cta_later_2 => '나중에 하기';
+
+  @override
+  String get ppt_cta_try_expert_mode => '심도 모드 체험';
+
+  @override
+  String get ppt_cta_try_fast_mode => '초고속 모드 체험';
+
+  @override
+  String get ppt_cta_upgrade_now => '지금 업그레이드';
+
+  @override
+  String get ppt_delete_confirm =>
+      '삭제하시겠습니까?\n삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?\n취소\n확인';
+
+  @override
+  String get ppt_download_fail => '다운로드 실패';
+
+  @override
+  String get ppt_download_file => '파일 다운로드 중, 페이지를 닫지 마세요';
+
+  @override
+  String get ppt_download_success => '다운로드 성공';
+
+  @override
+  String get ppt_download_timeout => '다운로드 시간 초과';
+
+  @override
+  String get ppt_exit_full_screen => '전체 화면 종료';
+
+  @override
+  String get ppt_exit_preview => '미리보기 종료';
+
+  @override
+  String get ppt_expert_done_try_fast =>
+      '심도 모드가 완료되었습니다! 초고속 모드로 다른 시각을 경험해보세요.';
+
+  @override
+  String get ppt_expert_done_try_fast_desc =>
+      '같은 주제, 다른 관점\n내용은 간결하게, 핵심은 분명하게\n즉시 생성, 즉각 대응';
+
+  @override
+  String get ppt_expert_mode_benefits => '더 깊이 있는 내용을 원하나요? 심도 모드를 사용해 보세요:';
+
+  @override
+  String get ppt_expert_mode_benefits_desc =>
+      '3배 정보\n신뢰도 높은 데이터 및 차트\n멋진 시각자료와 애니메이션';
+
+  @override
+  String get ppt_export_click_view => '여기를 클릭하여 보기';
+
+  @override
+  String get ppt_export_gogle_slides_failed =>
+      'Google Slides 내보내기에 실패했습니다. 다시 시도해 주세요.';
+
+  @override
+  String get ppt_export_google_slides => 'Google Slides로 내보내는 중...';
+
+  @override
+  String get ppt_export_google_slides_finish => '슬라이드가 Google Slides로 내보내졌습니다';
+
+  @override
+  String get ppt_exporting_gogle_slides => '내보내는 중';
+
+  @override
+  String get ppt_fallback_copy =>
+      '현재 요청하신 내용을 생성할 수 없습니다. 구체적인 프레젠테이션 주제, 시나리오 또는 내용을 제공해 주시면 관련 슬라이드를 생성해 드리겠습니다。';
+
+  @override
+  String get ppt_full_screen => '전체 화면 재생';
+
+  @override
+  String get ppt_generation_fail => '생성 실패, 다시 시도해주세요';
+
+  @override
+  String get ppt_generation_ongoing => '생성 중에는 페이지를 닫지 마세요';
+
+  @override
+  String get ppt_generation_success => '성공적으로 완료됨';
+
+  @override
+  String get ppt_input_exceed => '입력은 200자를 초과할 수 없습니다';
+
+  @override
+  String get ppt_mode_choose => '모드';
+
+  @override
+  String get ppt_mode_expert_desc =>
+      '더 강력한 기능과 모델, 정밀한 콘텐츠, 전문 검색으로 고품질 결과 제공.';
+
+  @override
+  String get ppt_mode_expert_title => '심도';
+
+  @override
+  String get ppt_mode_fast_desc =>
+      '효율적인 창작을 위해 설계되어 명확한 요구와 시간 제약이 있는 비즈니스 상황에 적합합니다.';
+
+  @override
+  String get ppt_mode_fast_title => '초고속';
+
+  @override
+  String get ppt_outline_complete => '개요 생성 완료';
+
+  @override
+  String get ppt_outline_contents => '목차';
+
+  @override
+  String get ppt_outline_endslide => '마지막 페이지';
+
+  @override
+  String get ppt_outline_pause => '일시정지';
+
+  @override
+  String get ppt_outline_regenerate => '다시 생성\n다음 단계';
+
+  @override
+  String get ppt_outline_step => '주제 - 개요 - 디자인 - 완료';
+
+  @override
+  String get ppt_outline_title => '제목\n단락 1\n단락 2\n단락 3\n페이지 수\n슬라이드 만들기';
+
+  @override
+  String get ppt_preview => '주제 변경\n재생\n슬라이드 다운로드\n지식 창고에 저장\n연설문 보기\n공유';
+
+  @override
+  String get ppt_sources => '자료';
+
+  @override
+  String get ppt_theme_fail => '주제 변경 실패';
+
+  @override
+  String get ppt_theme_select =>
+      '교육 학습, 직장 비즈니스, 재미있는 낙서, 첨단 기술, 모던 럭셔리, 활기찬 역동성, 미니멀 디자인, 신선한 자연';
+
+  @override
+  String get ppt_theme_success => '주제 변경 성공';
+
+  @override
+  String get ppt_topic_empty => '주제는 비워둘 수 없습니다. 주제를 입력해주세요';
+
+  @override
+  String get ppt_topic_select => '모든 색상\n모든 장면\n모든 스타일';
+
+  @override
+  String get ppt_vip_prompt_upgrade =>
+      '모든 콘텐츠를 잠금 해제하고 고품질 슬라이드 다운로드 혜택을 받으세요.';
+
+  @override
+  String get project_add => '추가';
+
+  @override
+  String get project_all_products => '프로젝트 파일';
+
+  @override
+  String get project_clear => '지우기';
+
+  @override
+  String get project_create_new => '새 프로젝트 생성';
+
+  @override
+  String get project_create_time => '생성 시간';
+
+  @override
+  String get project_dashboard_home_tab => '홈';
+
+  @override
+  String get project_download_app_qr => 'QR 코드를 스캔하여 앱 다운로드';
+
+  @override
+  String get project_expert => '전문가';
+
+  @override
+  String get project_expert_model_tag => '전문가';
+
+  @override
+  String get project_general => '범용';
+
+  @override
+  String get project_historical_project_limit =>
+      '2025년 5월 15일 이전에 생성된 프로젝트는 대화 이어보기를 지원하지 않습니다. 필요한 경우 새 프로젝트를 생성해 주세요';
+
+  @override
+  String get project_home_btn_text => '홈';
+
+  @override
+  String get project_join_discord => '디스코드 참여하기';
+
+  @override
+  String get project_knowledge_base => '지식베이스';
+
+  @override
+  String get project_last_edit_time => '마지막 편집 시간';
+
+  @override
+  String get project_login => '로그인';
+
+  @override
+  String get project_mobile_invite_tab => 'Skywork';
+
+  @override
+  String get project_network => '인터넷 연결';
+
+  @override
+  String get project_new_project => '새 프로젝트 만들기';
+
+  @override
+  String get project_official_site_signature => 'AI 오피스 에이전트 개척자';
+
+  @override
+  String project_one_file(Object count) {
+    return '$count개 파일';
+  }
+
+  @override
+  String get project_points_free_demo => '무료';
+
+  @override
+  String get project_project => '프로젝트';
+
+  @override
+  String get project_scenario_general => '기본 시나리오';
+
+  @override
+  String get project_search_shade_word => '검색';
+
+  @override
+  String get project_select_model => '에이전트 선택';
+
+  @override
+  String get project_status_completed => '성공';
+
+  @override
+  String get project_status_failed => '실패';
+
+  @override
+  String get project_status_in_progress => '진행 중';
+
+  @override
+  String get project_status_paused => '일시 중지';
+
+  @override
+  String get project_switch_agent_tab_text => '에이전트를 전환하면 새 프로젝트가 열립니다';
+
+  @override
+  String get project_switch_agent_tab_title => '주의';
+
+  @override
+  String get project_upload_file => '파일 업로드';
+
+  @override
+  String get project_view_again => '다시 보기';
+
+  @override
+  String get project_view_all => '모두 보기';
+
+  @override
+  String get project_view_result => '답변 보기';
+
+  @override
+  String get rename_failed => '이름 변경에 실패했습니다';
+
+  @override
+  String get rename_successful => '이름 변경 성공';
+
+  @override
+  String get report_failed => '신고에 실패했습니다';
+
+  @override
+  String get report_icon => '신고하기';
+
+  @override
+  String get report_implied_words => '자세한 정보를 제공하면 신고가 더 빠르게 처리됩니다';
+
+  @override
+  String get report_information => '신고 설명';
+
+  @override
+  String get report_successfully => '신고가 성공적으로 제출되었습니다';
+
+  @override
+  String get resend_the_code => '재전송';
+
+  @override
+  String get root_folder => '지식베이스';
+
+  @override
+  String get save_location => '저장 위치';
+
+  @override
+  String get save_tips => '[저장]을 클릭하여 파일을 저장하세요';
+
+  @override
+  String get search_files => '파일 검색';
+
+  @override
+  String get select_local_files => '로컬 파일 선택';
+
+  @override
+  String selected_files_count_format(Object count) {
+    return '$count개의 파일 선택됨';
+  }
+
+  @override
+  String selected_folders_count_format(Object count) {
+    return '$count개의 폴더 선택됨';
+  }
+
+  @override
+  String get setting_appearance => '외관';
+
+  @override
+  String get setting_control_add_more => '보충 정보';
+
+  @override
+  String setting_control_option1(Object seconds) {
+    return '$seconds초 후 작업 자동 실행';
+  }
+
+  @override
+  String get setting_control_option2 => '사용자 확인 후 작업 계속 진행';
+
+  @override
+  String get setting_control_ppt_outline => '슬라이드 개요';
+
+  @override
+  String get setting_control_save => '저장';
+
+  @override
+  String get setting_control_title => '인계 설정';
+
+  @override
+  String get setting_control_to_do_list => '할 일 목록';
+
+  @override
+  String get setting_go => '설정으로 이동';
+
+  @override
+  String get setting_language => '언어';
+
+  @override
+  String get setting_my_account => '계정 및 보안';
+
+  @override
+  String get setting_my_current_version => '현재 버전';
+
+  @override
+  String get setting_my_points => '내 크레딧';
+
+  @override
+  String get setting_no_avatar => '當前暱稱不可用，請重新編輯';
+
+  @override
+  String get setting_no_information => '當前頭像不可用，請重新上傳';
+
+  @override
+  String get setting_personal_avatar => '아바타 변경';
+
+  @override
+  String get setting_personal_contact => '문의하기';
+
+  @override
+  String get setting_personal_information => '프로필 편집';
+
+  @override
+  String get setting_personal_name => '이름';
+
+  @override
+  String get setting_personal_name_rule => '두 글자 이상 입력해 주세요';
+
+  @override
+  String get setting_personal_policy => '개인정보 처리방침';
+
+  @override
+  String get setting_personal_service => '서비스 약관';
+
+  @override
+  String get setting_save_end => '저장 성공';
+
+  @override
+  String get setting_version_update => '버전 업데이트';
+
+  @override
+  String get share_access_permissions => '접근 권한：';
+
+  @override
+  String get share_failed => '공유에 실패했습니다. 앱이 설치되어 있지 않습니다';
+
+  @override
+  String get share_fifteen_days => '15일';
+
+  @override
+  String get share_fifteen_days2 => '15일간 유효';
+
+  @override
+  String get share_link_expiry => '링크 유효기간';
+
+  @override
+  String get share_link_expiry2 => '유효 기간';
+
+  @override
+  String get share_link_permanent => '영구';
+
+  @override
+  String get share_link_permanent2 => '영구적으로 유효함';
+
+  @override
+  String get share_permissions_only_me => '본인만 보기';
+
+  @override
+  String get share_permissions_public => '공개';
+
+  @override
+  String get share_replay_mode => '재생 모드';
+
+  @override
+  String get share_search_cannot => '한 번 설정하면 취소할 수 없습니다';
+
+  @override
+  String get share_search_engines => '검색 엔진에 노출됨';
+
+  @override
+  String get share_seven_days => '7일';
+
+  @override
+  String get share_seven_days2 => '7일간 유효';
+
+  @override
+  String get share_share_config_save_error => '설정 저장 실패';
+
+  @override
+  String get share_share_config_save_success => '설정 저장 완료';
+
+  @override
+  String get share_share_default_text =>
+      'Skywork AI는 문서, 슬라이드, 웹사이트, 데이터 정리 등 모든 작업을 한 번에 처리해주는 올인원 전문가 도우미입니다';
+
+  @override
+  String get share_share_info_get_error => '요청 실패, 다시 시도해주세요';
+
+  @override
+  String get share_share_title => '공유';
+
+  @override
+  String get share_show_sources => '출처 추적 모드';
+
+  @override
+  String get share_thirty_days => '30일';
+
+  @override
+  String get share_thirty_days2 => '30일간 유효';
+
+  @override
+  String get share_three_days => '3일';
+
+  @override
+  String get share_three_days2 => '3일간 유효';
+
+  @override
+  String get share_type_copy_link => '링크 복사';
+
+  @override
+  String get share_type_facebook => 'Facebook';
+
+  @override
+  String get share_type_imessage => 'iMessage';
+
+  @override
+  String get share_type_more => '더보기';
+
+  @override
+  String get share_type_whatsapp => 'WhatsApp';
+
+  @override
+  String get share_type_x => 'X';
+
+  @override
+  String get sheet_agent_onboarding_a => '표 작성을 완료했어요.';
+
+  @override
+  String get sheet_agent_onboarding_main_title => '초간편한 표 인텔리전트';
+
+  @override
+  String get sheet_agent_onboarding_subtitle =>
+      '데이터를 스마트하게 수집·요약하고 전문 분석 및 처리를 능숙하게 수행합니다';
+
+  @override
+  String get slide => '프레젠테이션';
+
+  @override
+  String get slide_cancel => '종료';
+
+  @override
+  String get slide_canceled => '종료됨';
+
+  @override
+  String get slide_complete => '완료';
+
+  @override
+  String get slide_confirm_delete => '삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?';
+
+  @override
+  String get slide_delete => '삭제하시겠습니까?';
+
+  @override
+  String get slide_exceed_character200 => '입력은 200자 이내여야 합니다';
+
+  @override
+  String get slide_exceedcharacter40 => '입력은 40자 이내여야 합니다';
+
+  @override
+  String get slide_generation_failed => '생성 실패, 다시 시도해 주세요';
+
+  @override
+  String get slide_input_content => '내용을 입력해 주세요';
+
+  @override
+  String get slide_no_content => '내용 없음';
+
+  @override
+  String get slide_outline => '목차';
+
+  @override
+  String get slide_regenerate => '다시 생성 완료';
+
+  @override
+  String get slide_sub_title => '부제목';
+
+  @override
+  String get slide_title => '제목';
+
+  @override
+  String get slide_title2 => '제목';
+
+  @override
+  String get slide_title_empty => '제목은 비워둘 수 없습니다. 제목을 입력해 주세요';
+
+  @override
+  String get subscription_operation_button => '알겠습니다';
+
+  @override
+  String subscription_operation_text(
+      Object ndevice, Object odevice, Object operation) {
+    return '현재 회원 가입은 $odevice에서 이루어졌습니다. $operation을(를) 하시려면 $ndevice로 돌아가서 진행해 주세요.';
+  }
+
+  @override
+  String get subscription_operation_text_cancel => '구독 취소';
+
+  @override
+  String get subscription_operation_text_resubscribe => '다시 구독하기';
+
+  @override
+  String get subscription_operation_text_upgrade => '업그레이드';
+
+  @override
+  String subscription_operation_title(Object operation) {
+    return '죄송합니다. $operation할 수 없습니다';
+  }
+
+  @override
+  String get summary_click_behavior => '텍스트가 클립보드에 복사되었습니다';
+
+  @override
+  String get summary_click_during_analysis => '파일 분석 중입니다. 잠시만 기다려 주세요';
+
+  @override
+  String get supplement_resource => '자원';
+
+  @override
+  String get supplementconfirm => '확인';
+
+  @override
+  String get supplementdelete => '삭제';
+
+  @override
+  String get supplementdownload => '다운로드';
+
+  @override
+  String get supplementexpert => '전문가';
+
+  @override
+  String get supplementfolder_new => '새 폴더 만들기';
+
+  @override
+  String get supplementhomepage => '홈';
+
+  @override
+  String get supplementkb_analyzing => '분석 중';
+
+  @override
+  String get supplementkb_cancel => '취소';
+
+  @override
+  String get supplementkb_confirm => '확인';
+
+  @override
+  String get supplementkb_confirm_delete_folder => '이 폴더를 삭제하시겠습니까?';
+
+  @override
+  String supplementkb_confirm_delete_items(Object count) {
+    return '이$count개 항목을 삭제하시겠습니까?';
+  }
+
+  @override
+  String get supplementkb_create_folder => '폴더 만들기';
+
+  @override
+  String get supplementkb_delete_folder_tip => '폴더 삭제 시 내부 파일도 모두 삭제됩니다';
+
+  @override
+  String supplementkb_delete_more_tips(Object count) {
+    return '삭제 시 연결된$count개 프로젝트에서 선택한 파일을 더 이상 사용할 수 없습니다. 삭제하시겠습니까?';
+  }
+
+  @override
+  String get supplementkb_delete_tip_no_file => '선택한 파일이 없어 삭제할 수 없습니다';
+
+  @override
+  String get supplementkb_file_count => '개 파일';
+
+  @override
+  String get supplementkb_file_rename_input => '파일 이름을 입력하세요';
+
+  @override
+  String get supplementkb_folder_rename_input => '폴더 이름을 입력하세요';
+
+  @override
+  String get supplementkb_move_tip_no_file => '선택한 파일이 없어 이동할 수 없습니다';
+
+  @override
+  String get supplementkb_new_folder_name_input => '새 폴더 이름을 입력하세요';
+
+  @override
+  String get supplementkb_no_file_tips => '파일이 없습니다. 업로드해 주세요';
+
+  @override
+  String get supplementkb_parse_failed => '분석 실패';
+
+  @override
+  String get supplementkb_project_create_tip_no_file =>
+      '선택한 파일이 없어 새 프로젝트를 생성할 수 없습니다';
+
+  @override
+  String get supplementkb_retry => '재시도';
+
+  @override
+  String get supplementkb_single_file => '개 파일';
+
+  @override
+  String get supplementkb_status_size => '상태 - 크기';
+
+  @override
+  String get supplementkb_untitled_folder => '이름 없는 폴더';
+
+  @override
+  String get supplementkb_upload_failed => '업로드 실패';
+
+  @override
+  String get supplementkb_upload_files => '파일 업로드';
+
+  @override
+  String get supplementkb_upload_tips_empty => '파일이 없습니다. 업로드해 주세요';
+
+  @override
+  String get supplementkb_uploading => '업로드 중';
+
+  @override
+  String get supplementknowledge_base => '지식베이스';
+
+  @override
+  String get supplementmove_to => '이동';
+
+  @override
+  String get supplementmultiple_select => '다중 선택';
+
+  @override
+  String get supplementproject => '프로젝트';
+
+  @override
+  String get supplementproject_confirm_delete => '삭제하시겠습니까?';
+
+  @override
+  String get supplementproject_create => '생성';
+
+  @override
+  String get supplementproject_create_new => '새 프로젝트 생성';
+
+  @override
+  String get supplementproject_create_project => '프로젝트 생성';
+
+  @override
+  String get supplementproject_create_tip => '첫 프로젝트를 만들어 보세요';
+
+  @override
+  String get supplementproject_delete_tips =>
+      '삭제 시 대화 기록과 작품이 삭제됩니다. 업로드된 파일 및 지식베이스에 저장된 작품은 지식베이스에서 계속 확인할 수 있습니다.';
+
+  @override
+  String get supplementproject_new => '새 프로젝트';
+
+  @override
+  String get supplementproject_rename_input => '프로젝트 이름을 입력하세요';
+
+  @override
+  String get supplementproject_select_all => '전체 선택';
+
+  @override
+  String get supplementrename => '이름 바꾸기';
+
+  @override
+  String get supplementresource_add => '자원 추가';
+
+  @override
+  String get supplementresource_not_add => '아직 리소스가 추가되지 않았습니다';
+
+  @override
+  String get supplementsearch_no_results => '관련 결과가 없습니다';
+
+  @override
+  String get supplementsort_by_edit_time => '편집 시간 순 정렬';
+
+  @override
+  String get supplementupload => '업로드';
+
+  @override
+  String get supplementupload_drag_click => '드래그하거나 클릭하여 업로드';
+
+  @override
+  String get supplementupload_dropbox => 'Dropbox';
+
+  @override
+  String get supplementupload_from_knowledge_base => '지식베이스에서 업로드';
+
+  @override
+  String get supplementupload_google_drive => 'Google Drive';
+
+  @override
+  String get supplementupload_selected => '선택됨';
+
+  @override
+  String get supported_file_type => '형식';
+
+  @override
+  String table_max_limit_tips(Object limit) {
+    return '표는 최대 $limit를 초과할 수 없습니다';
+  }
+
+  @override
+  String get task_running_status => '작업 실행 중';
+
+  @override
+  String get text => '텍스트';
+
+  @override
+  String get title_tips => '제목';
+
+  @override
+  String get today => '오늘';
+
+  @override
+  String get todo_limit_recharge_member => '크레딧 충전';
+
+  @override
+  String get todo_limit_upgrade_free => '멤버십 업그레이드';
+
+  @override
+  String get unsupported_preview_tips => '미리보기를 지원하지 않는 파일입니다. 다운로드 후 확인해 주세요.';
+
+  @override
+  String get update_app_update_failed => '업데이트 실패';
+
+  @override
+  String get update_app_update_failed_and_retry => '업데이트 실패, 다시 시도해주세요';
+
+  @override
+  String get update_permission_open_tip_install_apk => '앱 설치 권한을 먼저 활성화해주세요';
+
+  @override
+  String get update_setting_version_latest => '최신 버전입니다';
+
+  @override
+  String get upgrade_now => '지금 업그레이드';
+
+  @override
+  String get upgrade_now_cancel => '취소';
+
+  @override
+  String get upgrade_version => '최신 버전';
+
+  @override
+  String get upload_correct_url => '올바른 URL을 업로드해 주세요';
+
+  @override
+  String get upload_failed => '업로드 실패';
+
+  @override
+  String get upload_successful => '업로드 성공';
+
+  @override
+  String get user_agreemen_agree => '동의하고 계속';
+
+  @override
+  String get user_agreemen_cancel => '동의하지 않음';
+
+  @override
+  String user_agreemen_content(
+      Object log_privacy_policy, Object log_terms_service) {
+    return '당사는 관련 법률 및 규정을 철저히 준수하여 귀하의 정보 보안을 보호할 것을 약속드립니다. 본 앱을 사용하는 동안 저장소, 하드웨어 일련번호, MAC 주소, 기기 센서, 청취 센서에 대한 권한을 요청하거나 접근할 수 있습니다. 본 팝업에 동의하더라도 관련 권한이 자동으로 활성화되는 것은 아니며, 해당 기능 사용 시 다시 한번 동의를 요청드릴 것입니다. 또한, 알림 발송, 불법 행위 방지 및 개인정보 유출 방지를 위해 기기 정보, 설치된 앱 목록, 로그 정보가 필요합니다. ‘동의’ 버튼을 클릭하면 $log_terms_service, $log_privacy_policy 및 위 내용을 모두 읽고 동의한 것으로 간주됩니다.';
+  }
+
+  @override
+  String user_agreemen_policy_content(
+      Object log_privacy_policy, Object log_terms_service) {
+    return '당사는 관련 법률 및 규정을 철저히 준수하여 귀하의 정보 보안을 보호할 것을 약속드립니다. 본 앱을 사용하는 동안 저장소, 하드웨어 일련번호, MAC 주소, 기기 센서, 청취 센서에 대한 권한을 요청하거나 접근할 수 있습니다. 본 팝업에 동의하더라도 관련 권한이 자동으로 활성화되는 것은 아니며, 해당 기능 사용 시 다시 한번 동의를 요청드릴 것입니다. 또한, 알림 발송, 불법 행위 방지 및 개인정보 유출 방지를 위해 기기 정보, 설치된 앱 목록, 로그 정보가 필요합니다. ‘동의’ 버튼을 클릭하면 $log_terms_service, $log_privacy_policy 및 위 내용을 모두 읽고 동의한 것으로 간주됩니다.\n<rich-text config=\"bold\">개인정보 처리방침이 업데이트되었습니다. 꼭 확인해 주세요.</rich-text>';
+  }
+
+  @override
+  String get user_agreemen_policy_title => '이용약관 및 개인정보 처리방침';
+
+  @override
+  String get user_agreemen_title => '특별 안내';
+
+  @override
+  String get user_info_common_request_error => '네트워크 오류입니다. 네트워크 설정을 확인해주세요.';
+
+  @override
+  String get user_info_copy_success => '복사 완료';
+
+  @override
+  String get user_info_empty_text => '콘텐츠가 없습니다. 새로고침 후 다시 시도해주세요.';
+
+  @override
+  String get user_info_invalid_token => '사용자 인증이 만료되었습니다. 다시 로그인해주세요.';
+
+  @override
+  String get user_info_load_fail_pls_retry => '로딩 실패, 다시 시도해주세요';
+
+  @override
+  String get user_info_logout_fail =>
+      '탈퇴에 실패했습니다. 고객센터에 문의해주세요: feedback@skywork.ai';
+
+  @override
+  String get user_info_net_error_toast => '네트워크 연결이 끊어졌습니다. 네트워크 설정을 확인해주세요.';
+
+  @override
+  String get user_info_net_resume_toast => '네트워크가 복구되었습니다';
+
+  @override
+  String get user_info_no_project => '아직 프로젝트가 없습니다. 지금 바로 만들어보세요';
+
+  @override
+  String get user_info_retry => '다시 시도';
+
+  @override
+  String get user_info_update_failed => '저장 실패';
+
+  @override
+  String get verify_code_error => '인증번호가 올바르지 않습니다. 다시 입력해 주세요';
+
+  @override
+  String get view_in_file_manager_tips => '파일 관리자로 이동';
+
+  @override
+  String get web_not_support_on_app => '앱에서는 웹 페이지 모드를 지원하지 않습니다. PC에서 이용해 주세요';
+
+  @override
+  String x_hours_ago_1(Object time) {
+    return '$time시간 전';
+  }
+
+  @override
+  String x_hours_ago_2(Object time) {
+    return '$time시간 전';
+  }
+
+  @override
+  String x_minutes_ago_1(Object time) {
+    return '$time분 전';
+  }
+
+  @override
+  String x_minutes_ago_2(Object time) {
+    return '$time분 전';
+  }
+
+  @override
+  String get yesterday => '어제';
+}
