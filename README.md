@@ -14,6 +14,8 @@
 - ✅ 完整的多语言文本资源
 - ✅ 优雅的语言切换UI界面
 
+- ⚠️ 本插件暂时只提供Flutter代码,如何将自己平台语料分发到每个arb中,请自行写脚本处理
+
 ## 技术栈
 
 - Flutter >=3.0.0 <4.0.0
@@ -88,8 +90,7 @@ flutter run
 
 ```dart
 // 获取本地化文本
-final localizations = AppLocalizations.of(context)!;
-Text(localizations.app_app_name)
+Text(getLocalizedText((l10n) => l10n.mine_language_entry))
 ```
 
 ### 添加新语言

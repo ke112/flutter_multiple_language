@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_multiple_language/generated/app_localizations.dart';
 import 'package:flutter_multiple_language/home_page.dart';
+import 'package:flutter_multiple_language/l10n/app_localizations.dart';
 import 'package:flutter_multiple_language/language/language_service.dart';
 import 'package:flutter_multiple_language/tools/navigator_provider.dart';
 import 'package:get/get.dart';

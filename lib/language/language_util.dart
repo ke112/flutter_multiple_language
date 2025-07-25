@@ -262,15 +262,11 @@ class RichTextRenderer {
 //       textAlign: TextAlign.start,
 //       overflow: TextOverflow.ellipsis,
 //       text: RichTextRenderer.buildLocalizedRichText(
-//         (l10n) => l10n.user_agreemen_content,
-//         defaultStyle: TextStyle(fontSize: 14.w, color: SkyworkColor.textIcon3),
-//         highlightColor: SkyworkColor.docBlue500,
+//         (l10n) => l10n.xxx,
+//         defaultStyle: TextStyle(fontSize: 14.w, color: Colors.red),
+//         highlightColor: Colors.blue,
 //         onTapSegment: (text, styles) {
-//           if (text.contains(getLocalizedText((l10n) => l10n.log_terms_service))) {
-//             Navigation.toWebViewPage(EnvConfig.instance.servicePolicy);
-//           } else if (text.contains(getLocalizedText((l10n) => l10n.log_privacy_policy))) {
-//             Navigation.toWebViewPage(EnvConfig.instance.privacyPolicy);
-//           }
+//           print('text: $text, styles: $styles');
 //         },
 //       ),
 //     );
@@ -297,23 +293,5 @@ String getLocalizedText(String Function(AppLocalizations) textGetter) {
   localizedText = localizedText.replaceAll('_LEFT_BRACE_', '{');
   localizedText = localizedText.replaceAll('_RIGHT_BRACE_', '}');
 
-  // 如果匹配到 rich-text 标签，过滤掉标签只保留文本内容
-  // if (localizedText.contains('<rich-text')) {
-  //   final RegExp richTextRegex = RegExp(
-  //     r'<rich-text\s+config="[^"]*?">([^<]*?)</rich-text>',
-  //     caseSensitive: false,
-  //   );
-  //   localizedText = localizedText.replaceAllMapped(richTextRegex, (match) {
-  //     return match.group(1) ?? '';
-  //   });
-  // }
-
   return localizedText;
 }
-
-/// ------------------------------------------ 通用文案 ------------------------------------------
-String get commonRequestError => getLocalizedText((l10n) => l10n.user_info_common_request_error);
-
-String get confirm => getLocalizedText((l10n) => l10n.confirm);
-
-String get cancel => getLocalizedText((l10n) => l10n.cancel);
