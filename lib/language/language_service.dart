@@ -184,13 +184,7 @@ class LanguageService extends GetxController {
       languageCode = _getSystemLanguageCode();
     }
 
-    // 查找对应的语言配置，兜底使用英文
-    final language = supportedLanguages.firstWhere(
-      (lang) => lang.code == languageCode,
-      orElse: () => supportedLanguages.first,
-    );
-    // 使用正确的语言和国家代码初始化Locale
-    _locale.value = _getLocale(language);
+    setLanguage(languageCode);
   }
 
   /// 设置语言, 兜底为当前语言
