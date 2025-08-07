@@ -184,11 +184,11 @@ class LanguageService extends GetxController {
       languageCode = _getSystemLanguageCode();
     }
 
-    setLanguage(languageCode);
+    setLanguage(languageCode, isCache: false);
   }
 
   /// 设置语言, 兜底为当前语言
-  Future<void> setLanguage(String setLanguage) async {
+  Future<void> setLanguage(String setLanguage, {bool isCache = true}) async {
     if (setLanguage.isEmpty) {
       return;
     }
@@ -212,7 +212,9 @@ class LanguageService extends GetxController {
     Locale newLocale = _getLocale(language);
 
     // 保存标准化的语言代码，这样在恢复时可以找到正确的语言配置
-    await _storage.then((value) => value.setString(_languageKey, setLanguage));
+    if (isCache) {
+      await _storage.then((value) => value.setString(_languageKey, setLanguage));
+    }
 
     _locale.value = newLocale;
 
