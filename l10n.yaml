@@ -1,0 +1,14 @@
+arb-dir: lib/l10n
+template-arb-file: intl_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+synthetic-package: false
+untranslated-messages-file: untranslated.txt #列出所有未翻译的key,方便补全
+preferred-supported-locales:
+  - en
+  - es
+  - ja
+  - zh
+  - zh_Hant
+  - ko
+  - ar
